@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "documentType": "official_calendar_overrides",
+  "jurisdiction": {
+    "country": "VN",
+    "subdivision": null
+  },
+  "year": 2013,
+  "scheduleScope": "public_sector_schedule",
+  "status": "published",
+  "updatedAt": "2026-08-13T00:00:00Z",
+  "sources": [
+    {
+      "id": "vn-office-gov-9570-2012",
+      "title": "Công văn số 9570/VPCP-KGVX về việc hoán đổi ngày nghỉ dịp lễ, Tết năm 2013",
+      "authority": "Văn phòng Chính phủ",
+      "url": "https://thuvienphapluat.vn/van-ban/Lao-dong-Tien-luong/Cong-van-9570-VPCP-KGVX-Nam-2012-hoan-doi-ngay-nghi-cac-dip-le-Tet-nam-2013-152062.aspx",
+      "publishedAt": "2012-11-23"
+    }
+  ],
+  "entries": [
+    {
+      "id": "vn.2013.new-years-day.exchange-leave",
+      "date": "2012-12-31",
+      "type": "official_leave",
+      "title": "Nghỉ hoán đổi Tết Dương lịch",
+      "holidayId": "vn.new-years-day",
+      "sourceIds": ["vn-office-gov-9570-2012"]
+    },
+    {
+      "id": "vn.2013.new-years-day.exchange-workday",
+      "date": "2013-01-05",
+      "type": "compensatory_workday",
+      "title": "Làm bù Tết Dương lịch",
+      "holidayId": "vn.new-years-day",
+      "sourceIds": ["vn-office-gov-9570-2012"]
+    },
+    {
+      "id": "vn.2013.lunar-new-year.exchange-leave",
+      "date": "2013-02-15",
+      "type": "official_leave",
+      "title": "Nghỉ hoán đổi Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-office-gov-9570-2012"]
+    },
+    {
+      "id": "vn.2013.lunar-new-year.exchange-workday",
+      "date": "2013-02-23",
+      "type": "compensatory_workday",
+      "title": "Làm bù Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-office-gov-9570-2012"]
+    },
+    {
+      "id": "vn.2013.reunification-day.exchange-leave",
+      "date": "2013-04-29",
+      "type": "official_leave",
+      "title": "Nghỉ hoán đổi dịp lễ 30/4",
+      "holidayId": "vn.reunification-day",
+      "sourceIds": ["vn-office-gov-9570-2012"]
+    },
+    {
+      "id": "vn.2013.reunification-day.exchange-workday",
+      "date": "2013-05-04",
+      "type": "compensatory_workday",
+      "title": "Làm bù dịp lễ 30/4",
+      "holidayId": "vn.reunification-day",
+      "sourceIds": ["vn-office-gov-9570-2012"]
+    }
+  ]
+}

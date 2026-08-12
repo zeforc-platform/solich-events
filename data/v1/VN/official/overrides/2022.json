@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "documentType": "official_calendar_overrides",
+  "jurisdiction": { "country": "VN", "subdivision": null },
+  "year": 2022,
+  "scheduleScope": "public_sector_schedule",
+  "status": "published",
+  "updatedAt": "2026-08-13T00:00:00Z",
+  "sources": [
+    {
+      "id": "vn-ministry-labour-2022-holidays",
+      "title": "Thông báo nghỉ Tết Âm lịch và Quốc khánh năm 2022",
+      "authority": "Bộ Lao động - Thương binh và Xã hội",
+      "url": "https://molisa.gov.vn/Upload/VanBan/Thong-bao-lich-nghi-Tet-2022-end-1.pdf",
+      "publishedAt": "2021-12-31"
+    },
+    {
+      "id": "vn-labour-code-2019",
+      "title": "Bộ luật Lao động số 45/2019/QH14",
+      "authority": "Quốc hội",
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=198540&pageid=27160&typegroupid=3",
+      "publishedAt": "2019-11-20"
+    }
+  ],
+  "entries": [
+    {
+      "id": "vn.2022.new-years-day.compensatory-leave",
+      "date": "2022-01-03",
+      "type": "compensatory_leave",
+      "title": "Nghỉ bù Tết Dương lịch",
+      "holidayId": "vn.new-years-day",
+      "sourceIds": ["vn-labour-code-2019"]
+    },
+    {
+      "id": "vn.2022.lunar-new-year.leave-before",
+      "date": "2022-01-31",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-ministry-labour-2022-holidays"]
+    },
+    {
+      "id": "vn.2022.lunar-new-year.leave-after-1",
+      "date": "2022-02-02",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-ministry-labour-2022-holidays"]
+    },
+    {
+      "id": "vn.2022.lunar-new-year.leave-after-2",
+      "date": "2022-02-03",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-ministry-labour-2022-holidays"]
+    },
+    {
+      "id": "vn.2022.lunar-new-year.leave-after-3",
+      "date": "2022-02-04",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-ministry-labour-2022-holidays"]
+    },
+    {
+      "id": "vn.2022.hung-kings-commemoration.compensatory-leave",
+      "date": "2022-04-11",
+      "type": "compensatory_leave",
+      "title": "Nghỉ bù Giỗ Tổ Hùng Vương",
+      "holidayId": "vn.hung-kings-commemoration",
+      "sourceIds": ["vn-labour-code-2019"]
+    },
+    {
+      "id": "vn.2022.national-day.additional-statutory-leave",
+      "date": "2022-09-01",
+      "type": "official_leave",
+      "title": "Nghỉ lễ Quốc khánh",
+      "holidayId": "vn.national-day",
+      "sourceIds": ["vn-ministry-labour-2022-holidays"]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "documentType": "official_calendar_overrides",
+  "jurisdiction": {
+    "country": "VN",
+    "subdivision": null
+  },
+  "year": 2017,
+  "scheduleScope": "public_sector_schedule",
+  "status": "published",
+  "updatedAt": "2026-08-13T00:00:00Z",
+  "sources": [
+    {
+      "id": "vn-molisa-4699-2016",
+      "title": "Thông báo số 4699/TB-BLĐTBXH về lịch nghỉ các ngày Lễ, Tết năm 2017",
+      "authority": "Bộ Lao động - Thương binh và Xã hội",
+      "url": "https://thuvienphapluat.vn/van-ban/Lao-dong-Tien-luong/Thong-bao-4699-TB-LDTBXH-nghi-le-Tet-2017-voi-can-bo-cong-chuc-vien-chuc-nguoi-lao-dong-333140.aspx",
+      "publishedAt": "2016-11-24"
+    }
+  ],
+  "entries": [
+    {
+      "id": "vn.2017.new-years-day.compensatory-leave",
+      "date": "2017-01-02",
+      "type": "compensatory_leave",
+      "title": "Nghỉ bù Tết Dương lịch",
+      "holidayId": "vn.new-years-day",
+      "sourceIds": ["vn-molisa-4699-2016"]
+    },
+    {
+      "id": "vn.2017.lunar-new-year.leave-1",
+      "date": "2017-01-26",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-molisa-4699-2016"]
+    },
+    {
+      "id": "vn.2017.lunar-new-year.leave-2",
+      "date": "2017-01-27",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-molisa-4699-2016"]
+    },
+    {
+      "id": "vn.2017.lunar-new-year.leave-3",
+      "date": "2017-01-28",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-molisa-4699-2016"]
+    },
+    {
+      "id": "vn.2017.lunar-new-year.leave-4",
+      "date": "2017-01-29",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-molisa-4699-2016"]
+    },
+    {
+      "id": "vn.2017.lunar-new-year.leave-5",
+      "date": "2017-01-30",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-molisa-4699-2016"]
+    },
+    {
+      "id": "vn.2017.lunar-new-year.compensatory-leave-1",
+      "date": "2017-01-31",
+      "type": "compensatory_leave",
+      "title": "Nghỉ bù Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-molisa-4699-2016"]
+    },
+    {
+      "id": "vn.2017.lunar-new-year.compensatory-leave-2",
+      "date": "2017-02-01",
+      "type": "compensatory_leave",
+      "title": "Nghỉ bù Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-molisa-4699-2016"]
+    },
+    {
+      "id": "vn.2017.reunification-day.compensatory-leave",
+      "date": "2017-05-02",
+      "type": "compensatory_leave",
+      "title": "Nghỉ bù Ngày Chiến thắng",
+      "holidayId": "vn.reunification-day",
+      "sourceIds": ["vn-molisa-4699-2016"]
+    },
+    {
+      "id": "vn.2017.national-day.compensatory-leave",
+      "date": "2017-09-04",
+      "type": "compensatory_leave",
+      "title": "Nghỉ bù Quốc khánh",
+      "holidayId": "vn.national-day",
+      "sourceIds": ["vn-molisa-4699-2016"]
+    }
+  ]
+}

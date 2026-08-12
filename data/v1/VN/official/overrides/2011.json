@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "documentType": "official_calendar_overrides",
+  "jurisdiction": {
+    "country": "VN",
+    "subdivision": null
+  },
+  "year": 2011,
+  "scheduleScope": "public_sector_schedule",
+  "status": "published",
+  "updatedAt": "2026-08-13T00:00:00Z",
+  "sources": [
+    {
+      "id": "vn-molisa-24-2011",
+      "title": "Thông báo số 24/TB-BLĐTBXH về việc hoán đổi ngày nghỉ dịp Tết Âm lịch và Giỗ Tổ Hùng Vương năm 2011",
+      "authority": "Bộ Lao động - Thương binh và Xã hội",
+      "url": "https://thuvienphapluat.vn/van-ban/Lao-dong-Tien-luong/Thong-bao-24-TB-LDTBXH-hoan-doi-ngay-nghi-ngay-di-lam-bu-Tet-am-lich-117290.aspx",
+      "publishedAt": "2011-01-06"
+    }
+  ],
+  "entries": [
+    {
+      "id": "vn.2011.lunar-new-year.exchange-workday-1",
+      "date": "2011-01-29",
+      "type": "compensatory_workday",
+      "title": "Làm bù Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-molisa-24-2011"]
+    },
+    {
+      "id": "vn.2011.lunar-new-year.exchange-workday-2",
+      "date": "2011-01-30",
+      "type": "compensatory_workday",
+      "title": "Làm bù Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-molisa-24-2011"]
+    },
+    {
+      "id": "vn.2011.lunar-new-year.exchange-leave-1",
+      "date": "2011-01-31",
+      "type": "official_leave",
+      "title": "Nghỉ hoán đổi Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-molisa-24-2011"]
+    },
+    {
+      "id": "vn.2011.lunar-new-year.exchange-leave-2",
+      "date": "2011-02-01",
+      "type": "official_leave",
+      "title": "Nghỉ hoán đổi Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-molisa-24-2011"]
+    },
+    {
+      "id": "vn.2011.hung-kings.exchange-workday",
+      "date": "2011-04-09",
+      "type": "compensatory_workday",
+      "title": "Làm bù Giỗ Tổ Hùng Vương",
+      "holidayId": "vn.hung-kings-commemoration",
+      "sourceIds": ["vn-molisa-24-2011"]
+    },
+    {
+      "id": "vn.2011.hung-kings.exchange-leave",
+      "date": "2011-04-11",
+      "type": "official_leave",
+      "title": "Nghỉ hoán đổi Giỗ Tổ Hùng Vương",
+      "holidayId": "vn.hung-kings-commemoration",
+      "sourceIds": ["vn-molisa-24-2011"]
+    }
+  ]
+}

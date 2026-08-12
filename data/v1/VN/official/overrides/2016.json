@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "documentType": "official_calendar_overrides",
+  "jurisdiction": {
+    "country": "VN",
+    "subdivision": null
+  },
+  "year": 2016,
+  "scheduleScope": "public_sector_schedule",
+  "status": "published",
+  "updatedAt": "2026-08-13T00:00:00Z",
+  "sources": [
+    {
+      "id": "vn-molisa-4659-2015",
+      "title": "Thông báo số 4659/TB-LĐTBXH về việc nghỉ lễ, Tết năm 2016",
+      "authority": "Bộ Lao động - Thương binh và Xã hội",
+      "url": "https://thuvienphapluat.vn/van-ban/Lao-dong-Tien-luong/Thong-bao-4659-TB-LDTBXH-nghi-le-tet-2016-nguoi-lao-dong-295328.aspx",
+      "publishedAt": "2015-11-13"
+    }
+  ],
+  "entries": [
+    {
+      "id": "vn.2016.lunar-new-year.leave-1",
+      "date": "2016-02-08",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-molisa-4659-2015"]
+    },
+    {
+      "id": "vn.2016.lunar-new-year.leave-2",
+      "date": "2016-02-09",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-molisa-4659-2015"]
+    },
+    {
+      "id": "vn.2016.lunar-new-year.leave-3",
+      "date": "2016-02-10",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-molisa-4659-2015"]
+    },
+    {
+      "id": "vn.2016.lunar-new-year.leave-4",
+      "date": "2016-02-11",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-molisa-4659-2015"]
+    },
+    {
+      "id": "vn.2016.lunar-new-year.leave-5",
+      "date": "2016-02-12",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-molisa-4659-2015"]
+    },
+    {
+      "id": "vn.2016.hung-kings.compensatory-leave",
+      "date": "2016-04-18",
+      "type": "compensatory_leave",
+      "title": "Nghỉ bù Giỗ Tổ Hùng Vương",
+      "holidayId": "vn.hung-kings-commemoration",
+      "sourceIds": ["vn-molisa-4659-2015"]
+    },
+    {
+      "id": "vn.2016.reunification-day.compensatory-leave",
+      "date": "2016-05-02",
+      "type": "compensatory_leave",
+      "title": "Nghỉ bù Ngày Chiến thắng",
+      "holidayId": "vn.reunification-day",
+      "sourceIds": ["vn-molisa-4659-2015"]
+    },
+    {
+      "id": "vn.2016.international-workers-day.compensatory-leave",
+      "date": "2016-05-03",
+      "type": "compensatory_leave",
+      "title": "Nghỉ bù Ngày Quốc tế Lao động",
+      "holidayId": "vn.international-workers-day",
+      "sourceIds": ["vn-molisa-4659-2015"]
+    }
+  ]
+}

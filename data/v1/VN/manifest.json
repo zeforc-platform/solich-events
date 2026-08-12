@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "documentType": "jurisdiction_manifest",
+  "jurisdiction": {
+    "country": "VN",
+    "subdivision": null
+  },
+  "updatedAt": "2026-08-13T00:00:00Z",
+  "feeds": {
+    "officialCatalog": "official/catalog.json",
+    "observanceCatalog": "observances/catalog.json",
+    "officialOverrides": [
+      { "year": 2020, "path": "official/overrides/2020.json", "status": "published" },
+      { "year": 2021, "path": "official/overrides/2021.json", "status": "published" },
+      { "year": 2022, "path": "official/overrides/2022.json", "status": "published" },
+      { "year": 2023, "path": "official/overrides/2023.json", "status": "published" },
+      { "year": 2024, "path": "official/overrides/2024.json", "status": "published" },
+      { "year": 2025, "path": "official/overrides/2025.json", "status": "published" },
+      {
+        "year": 2026,
+        "path": "official/overrides/2026.json",
+        "status": "published"
+      }
+    ]
+  }
+}
