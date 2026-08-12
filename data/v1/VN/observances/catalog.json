@@ -43,9 +43,7 @@
       "effective": {
         "fromYear": 1946
       },
-      "sourceIds": [
-        "vn-major-events-2026"
-      ],
+      "sourceIds": ["vn-major-events-2026"],
       "observanceType": "historical_commemoration"
     },
     {
@@ -61,9 +59,7 @@
       "effective": {
         "fromYear": 1930
       },
-      "sourceIds": [
-        "vn-major-events-2026"
-      ],
+      "sourceIds": ["vn-major-events-2026"],
       "observanceType": "national_commemoration"
     },
     {
@@ -79,9 +75,7 @@
       "effective": {
         "fromYear": 1955
       },
-      "sourceIds": [
-        "vn-major-events-2026"
-      ],
+      "sourceIds": ["vn-major-events-2026"],
       "observanceType": "professional_commemoration"
     },
     {
@@ -97,9 +91,7 @@
       "effective": {
         "fromYear": 1931
       },
-      "sourceIds": [
-        "vn-major-events-2026"
-      ],
+      "sourceIds": ["vn-major-events-2026"],
       "observanceType": "national_commemoration"
     },
     {
@@ -116,9 +108,7 @@
       "effective": {
         "fromYear": 1
       },
-      "sourceIds": [
-        "vn-traditional-observances"
-      ],
+      "sourceIds": ["vn-traditional-observances"],
       "observanceType": "cultural_traditional"
     },
     {
@@ -134,9 +124,7 @@
       "effective": {
         "fromYear": 1954
       },
-      "sourceIds": [
-        "vn-major-events-2026"
-      ],
+      "sourceIds": ["vn-major-events-2026"],
       "observanceType": "historical_commemoration"
     },
     {
@@ -152,9 +140,7 @@
       "effective": {
         "fromYear": 1890
       },
-      "sourceIds": [
-        "vn-major-events-2026"
-      ],
+      "sourceIds": ["vn-major-events-2026"],
       "observanceType": "national_commemoration"
     },
     {
@@ -171,9 +157,7 @@
       "effective": {
         "fromYear": 1
       },
-      "sourceIds": [
-        "vn-traditional-observances"
-      ],
+      "sourceIds": ["vn-traditional-observances"],
       "observanceType": "cultural_traditional"
     },
     {
@@ -189,9 +173,7 @@
       "effective": {
         "fromYear": 1925
       },
-      "sourceIds": [
-        "vn-revolutionary-press-day-2026"
-      ],
+      "sourceIds": ["vn-revolutionary-press-day-2026"],
       "observanceType": "professional_commemoration"
     },
     {
@@ -207,9 +189,7 @@
       "effective": {
         "fromYear": 2001
       },
-      "sourceIds": [
-        "vn-major-events-2026"
-      ],
+      "sourceIds": ["vn-major-events-2026"],
       "observanceType": "family_social_observance"
     },
     {
@@ -225,9 +205,7 @@
       "effective": {
         "fromYear": 1947
       },
-      "sourceIds": [
-        "vn-major-events-2026"
-      ],
+      "sourceIds": ["vn-major-events-2026"],
       "observanceType": "national_commemoration"
     },
     {
@@ -243,9 +221,7 @@
       "effective": {
         "fromYear": 1945
       },
-      "sourceIds": [
-        "vn-major-events-2026"
-      ],
+      "sourceIds": ["vn-major-events-2026"],
       "observanceType": "historical_commemoration"
     },
     {
@@ -262,9 +238,7 @@
       "effective": {
         "fromYear": 1
       },
-      "sourceIds": [
-        "vn-traditional-observances"
-      ],
+      "sourceIds": ["vn-traditional-observances"],
       "observanceType": "cultural_traditional"
     },
     {
@@ -280,9 +254,7 @@
       "effective": {
         "fromYear": 1930
       },
-      "sourceIds": [
-        "vn-major-events-2026"
-      ],
+      "sourceIds": ["vn-major-events-2026"],
       "observanceType": "family_social_observance"
     },
     {
@@ -298,9 +270,7 @@
       "effective": {
         "fromYear": 2013
       },
-      "sourceIds": [
-        "vn-major-events-2026"
-      ],
+      "sourceIds": ["vn-major-events-2026"],
       "observanceType": "national_commemoration"
     },
     {
@@ -316,9 +286,7 @@
       "effective": {
         "fromYear": 1982
       },
-      "sourceIds": [
-        "vn-major-events-2026"
-      ],
+      "sourceIds": ["vn-major-events-2026"],
       "observanceType": "professional_commemoration"
     },
     {
@@ -334,9 +302,7 @@
       "effective": {
         "fromYear": 2005
       },
-      "sourceIds": [
-        "vn-major-events-2026"
-      ],
+      "sourceIds": ["vn-major-events-2026"],
       "observanceType": "cultural_traditional"
     },
     {
@@ -352,9 +318,7 @@
       "effective": {
         "fromYear": 1946
       },
-      "sourceIds": [
-        "vn-major-events-2026"
-      ],
+      "sourceIds": ["vn-major-events-2026"],
       "observanceType": "historical_commemoration"
     },
     {
@@ -370,9 +334,7 @@
       "effective": {
         "fromYear": 1944
       },
-      "sourceIds": [
-        "vn-major-events-2026"
-      ],
+      "sourceIds": ["vn-major-events-2026"],
       "observanceType": "national_commemoration"
     },
     {
@@ -389,9 +351,7 @@
       "effective": {
         "fromYear": 1
       },
-      "sourceIds": [
-        "vn-traditional-observances"
-      ],
+      "sourceIds": ["vn-traditional-observances"],
       "observanceType": "cultural_traditional"
     }
   ]
