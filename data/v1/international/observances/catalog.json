@@ -102,6 +102,7 @@
       "effective": { "fromYear": 1 },
       "sourceIds": ["east-asian-buddhist"],
       "observanceType": "religious_traditional",
+      "religiousTraditions": ["buddhist"],
       "applicability": { "mode": "countries", "countries": ["VN"] }
     },
     {
@@ -118,6 +119,7 @@
       "effective": { "fromYear": 1 },
       "sourceIds": ["east-asian-buddhist"],
       "observanceType": "religious_traditional",
+      "religiousTraditions": ["buddhist"],
       "applicability": { "mode": "countries", "countries": ["TW"] }
     },
     {
@@ -129,6 +131,7 @@
       "effective": { "fromYear": 1 },
       "sourceIds": ["jp-hanamatsuri"],
       "observanceType": "religious_traditional",
+      "religiousTraditions": ["buddhist"],
       "applicability": { "mode": "countries", "countries": ["JP"] }
     },
     {
@@ -167,6 +170,7 @@
       "effective": { "fromYear": 1 },
       "sourceIds": ["east-asian-buddhist"],
       "observanceType": "religious_traditional",
+      "religiousTraditions": ["buddhist"],
       "applicability": { "mode": "countries", "countries": ["VN"] }
     },
     {
@@ -183,6 +187,7 @@
       "effective": { "fromYear": 1 },
       "sourceIds": ["kr-baekjung"],
       "observanceType": "religious_traditional",
+      "religiousTraditions": ["buddhist"],
       "applicability": { "mode": "countries", "countries": ["KR"] }
     },
     {
@@ -199,6 +204,7 @@
       "effective": { "fromYear": 1 },
       "sourceIds": ["east-asian-buddhist"],
       "observanceType": "religious_traditional",
+      "religiousTraditions": ["buddhist"],
       "applicability": { "mode": "countries", "countries": ["TW"] }
     },
     {
@@ -210,6 +216,7 @@
       "effective": { "fromYear": 1798 },
       "sourceIds": ["vn-la-vang"],
       "observanceType": "religious_observance",
+      "religiousTraditions": ["catholic"],
       "applicability": { "mode": "countries", "countries": ["VN"] }
     },
     {
@@ -254,6 +261,7 @@
       "effective": { "fromYear": 1 },
       "sourceIds": ["cultural-observances"],
       "observanceType": "religious_observance",
+      "religiousTraditions": ["catholic", "christian"],
       "applicability": {
         "mode": "countries",
         "countries": ["VN", "TW", "JP", "KR", "US", "AU"]

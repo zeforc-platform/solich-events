@@ -54,6 +54,12 @@
           "observanceType": {
             "$ref": "common.schema.json#/$defs/observanceType"
           },
+          "religiousTraditions": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": { "$ref": "common.schema.json#/$defs/religiousTradition" }
+          },
           "applicability": { "$ref": "common.schema.json#/$defs/applicability" }
         }
       }
