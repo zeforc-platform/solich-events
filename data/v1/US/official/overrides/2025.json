@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "documentType": "official_calendar_overrides",
+  "jurisdiction": {
+    "country": "US",
+    "subdivision": null
+  },
+  "year": 2025,
+  "scheduleScope": "nationwide_statutory",
+  "status": "published",
+  "updatedAt": "2026-08-13T00:00:00Z",
+  "sources": [
+    {
+      "id": "us-opm-2025",
+      "title": "Federal Holidays 2025",
+      "authority": "Office of Personnel Management",
+      "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+      "publishedAt": "2024-01-01"
+    }
+  ],
+  "entries": [
+    {
+      "id": "us.2025.new-years-day",
+      "date": "2025-01-01",
+      "type": "official_holiday",
+      "title": "New Year's Day",
+      "holidayId": "us.new-years-day",
+      "sourceIds": [
+        "us-opm-2025"
+      ]
+    },
+    {
+      "id": "us.2025.mlk-day",
+      "date": "2025-01-20",
+      "type": "official_holiday",
+      "title": "Martin Luther King Jr. Day",
+      "holidayId": "us.mlk-day",
+      "sourceIds": [
+        "us-opm-2025"
+      ]
+    },
+    {
+      "id": "us.2025.washingtons-birthday",
+      "date": "2025-02-17",
+      "type": "official_holiday",
+      "title": "Washington's Birthday",
+      "holidayId": "us.washingtons-birthday",
+      "sourceIds": [
+        "us-opm-2025"
+      ]
+    },
+    {
+      "id": "us.2025.memorial-day",
+      "date": "2025-05-26",
+      "type": "official_holiday",
+      "title": "Memorial Day",
+      "holidayId": "us.memorial-day",
+      "sourceIds": [
+        "us-opm-2025"
+      ]
+    },
+    {
+      "id": "us.2025.juneteenth",
+      "date": "2025-06-19",
+      "type": "official_holiday",
+      "title": "Juneteenth National Independence Day",
+      "holidayId": "us.juneteenth",
+      "sourceIds": [
+        "us-opm-2025"
+      ]
+    },
+    {
+      "id": "us.2025.independence-day",
+      "date": "2025-07-04",
+      "type": "official_holiday",
+      "title": "Independence Day",
+      "holidayId": "us.independence-day",
+      "sourceIds": [
+        "us-opm-2025"
+      ]
+    },
+    {
+      "id": "us.2025.labor-day",
+      "date": "2025-09-01",
+      "type": "official_holiday",
+      "title": "Labor Day",
+      "holidayId": "us.labor-day",
+      "sourceIds": [
+        "us-opm-2025"
+      ]
+    },
+    {
+      "id": "us.2025.columbus-day",
+      "date": "2025-10-13",
+      "type": "official_holiday",
+      "title": "Columbus Day",
+      "holidayId": "us.columbus-day",
+      "sourceIds": [
+        "us-opm-2025"
+      ]
+    },
+    {
+      "id": "us.2025.veterans-day",
+      "date": "2025-11-11",
+      "type": "official_holiday",
+      "title": "Veterans Day",
+      "holidayId": "us.veterans-day",
+      "sourceIds": [
+        "us-opm-2025"
+      ]
+    },
+    {
+      "id": "us.2025.christmas-day",
+      "date": "2025-12-25",
+      "type": "official_holiday",
+      "title": "Christmas Day",
+      "holidayId": "us.christmas-day",
+      "sourceIds": [
+        "us-opm-2025"
+      ]
+    }
+  ]
+}

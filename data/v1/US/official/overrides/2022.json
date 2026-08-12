@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "documentType": "official_calendar_overrides",
+  "jurisdiction": {
+    "country": "US",
+    "subdivision": null
+  },
+  "year": 2022,
+  "scheduleScope": "nationwide_statutory",
+  "status": "published",
+  "updatedAt": "2026-08-13T00:00:00Z",
+  "sources": [
+    {
+      "id": "us-opm-2022",
+      "title": "Federal Holidays 2022",
+      "authority": "Office of Personnel Management",
+      "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+      "publishedAt": "2021-01-01"
+    }
+  ],
+  "entries": [
+    {
+      "id": "us.2022.new-years-day",
+      "date": "2022-01-01",
+      "type": "official_holiday",
+      "title": "New Year's Day",
+      "holidayId": "us.new-years-day",
+      "sourceIds": [
+        "us-opm-2022"
+      ]
+    },
+    {
+      "id": "us.2022.mlk-day",
+      "date": "2022-01-17",
+      "type": "official_holiday",
+      "title": "Martin Luther King Jr. Day",
+      "holidayId": "us.mlk-day",
+      "sourceIds": [
+        "us-opm-2022"
+      ]
+    },
+    {
+      "id": "us.2022.washingtons-birthday",
+      "date": "2022-02-21",
+      "type": "official_holiday",
+      "title": "Washington's Birthday",
+      "holidayId": "us.washingtons-birthday",
+      "sourceIds": [
+        "us-opm-2022"
+      ]
+    },
+    {
+      "id": "us.2022.memorial-day",
+      "date": "2022-05-30",
+      "type": "official_holiday",
+      "title": "Memorial Day",
+      "holidayId": "us.memorial-day",
+      "sourceIds": [
+        "us-opm-2022"
+      ]
+    },
+    {
+      "id": "us.2022.juneteenth",
+      "date": "2022-06-19",
+      "type": "official_holiday",
+      "title": "Juneteenth National Independence Day",
+      "holidayId": "us.juneteenth",
+      "sourceIds": [
+        "us-opm-2022"
+      ]
+    },
+    {
+      "id": "us.2022.independence-day",
+      "date": "2022-07-04",
+      "type": "official_holiday",
+      "title": "Independence Day",
+      "holidayId": "us.independence-day",
+      "sourceIds": [
+        "us-opm-2022"
+      ]
+    },
+    {
+      "id": "us.2022.labor-day",
+      "date": "2022-09-05",
+      "type": "official_holiday",
+      "title": "Labor Day",
+      "holidayId": "us.labor-day",
+      "sourceIds": [
+        "us-opm-2022"
+      ]
+    },
+    {
+      "id": "us.2022.columbus-day",
+      "date": "2022-10-10",
+      "type": "official_holiday",
+      "title": "Columbus Day",
+      "holidayId": "us.columbus-day",
+      "sourceIds": [
+        "us-opm-2022"
+      ]
+    },
+    {
+      "id": "us.2022.veterans-day",
+      "date": "2022-11-11",
+      "type": "official_holiday",
+      "title": "Veterans Day",
+      "holidayId": "us.veterans-day",
+      "sourceIds": [
+        "us-opm-2022"
+      ]
+    },
+    {
+      "id": "us.2022.christmas-day",
+      "date": "2022-12-25",
+      "type": "official_holiday",
+      "title": "Christmas Day",
+      "holidayId": "us.christmas-day",
+      "sourceIds": [
+        "us-opm-2022"
+      ]
+    }
+  ]
+}

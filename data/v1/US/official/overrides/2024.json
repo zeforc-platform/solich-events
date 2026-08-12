@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "documentType": "official_calendar_overrides",
+  "jurisdiction": {
+    "country": "US",
+    "subdivision": null
+  },
+  "year": 2024,
+  "scheduleScope": "nationwide_statutory",
+  "status": "published",
+  "updatedAt": "2026-08-13T00:00:00Z",
+  "sources": [
+    {
+      "id": "us-opm-2024",
+      "title": "Federal Holidays 2024",
+      "authority": "Office of Personnel Management",
+      "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+      "publishedAt": "2023-01-01"
+    }
+  ],
+  "entries": [
+    {
+      "id": "us.2024.new-years-day",
+      "date": "2024-01-01",
+      "type": "official_holiday",
+      "title": "New Year's Day",
+      "holidayId": "us.new-years-day",
+      "sourceIds": [
+        "us-opm-2024"
+      ]
+    },
+    {
+      "id": "us.2024.mlk-day",
+      "date": "2024-01-15",
+      "type": "official_holiday",
+      "title": "Martin Luther King Jr. Day",
+      "holidayId": "us.mlk-day",
+      "sourceIds": [
+        "us-opm-2024"
+      ]
+    },
+    {
+      "id": "us.2024.washingtons-birthday",
+      "date": "2024-02-19",
+      "type": "official_holiday",
+      "title": "Washington's Birthday",
+      "holidayId": "us.washingtons-birthday",
+      "sourceIds": [
+        "us-opm-2024"
+      ]
+    },
+    {
+      "id": "us.2024.memorial-day",
+      "date": "2024-05-27",
+      "type": "official_holiday",
+      "title": "Memorial Day",
+      "holidayId": "us.memorial-day",
+      "sourceIds": [
+        "us-opm-2024"
+      ]
+    },
+    {
+      "id": "us.2024.juneteenth",
+      "date": "2024-06-19",
+      "type": "official_holiday",
+      "title": "Juneteenth National Independence Day",
+      "holidayId": "us.juneteenth",
+      "sourceIds": [
+        "us-opm-2024"
+      ]
+    },
+    {
+      "id": "us.2024.independence-day",
+      "date": "2024-07-04",
+      "type": "official_holiday",
+      "title": "Independence Day",
+      "holidayId": "us.independence-day",
+      "sourceIds": [
+        "us-opm-2024"
+      ]
+    },
+    {
+      "id": "us.2024.labor-day",
+      "date": "2024-09-02",
+      "type": "official_holiday",
+      "title": "Labor Day",
+      "holidayId": "us.labor-day",
+      "sourceIds": [
+        "us-opm-2024"
+      ]
+    },
+    {
+      "id": "us.2024.columbus-day",
+      "date": "2024-10-14",
+      "type": "official_holiday",
+      "title": "Columbus Day",
+      "holidayId": "us.columbus-day",
+      "sourceIds": [
+        "us-opm-2024"
+      ]
+    },
+    {
+      "id": "us.2024.veterans-day",
+      "date": "2024-11-11",
+      "type": "official_holiday",
+      "title": "Veterans Day",
+      "holidayId": "us.veterans-day",
+      "sourceIds": [
+        "us-opm-2024"
+      ]
+    },
+    {
+      "id": "us.2024.christmas-day",
+      "date": "2024-12-25",
+      "type": "official_holiday",
+      "title": "Christmas Day",
+      "holidayId": "us.christmas-day",
+      "sourceIds": [
+        "us-opm-2024"
+      ]
+    }
+  ]
+}

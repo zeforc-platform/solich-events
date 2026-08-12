@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "documentType": "official_calendar_overrides",
+  "jurisdiction": {
+    "country": "US",
+    "subdivision": null
+  },
+  "year": 2021,
+  "scheduleScope": "nationwide_statutory",
+  "status": "published",
+  "updatedAt": "2026-08-13T00:00:00Z",
+  "sources": [
+    {
+      "id": "us-opm-2021",
+      "title": "Federal Holidays 2021",
+      "authority": "Office of Personnel Management",
+      "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+      "publishedAt": "2020-01-01"
+    }
+  ],
+  "entries": [
+    {
+      "id": "us.2021.new-years-day",
+      "date": "2021-01-01",
+      "type": "official_holiday",
+      "title": "New Year's Day",
+      "holidayId": "us.new-years-day",
+      "sourceIds": [
+        "us-opm-2021"
+      ]
+    },
+    {
+      "id": "us.2021.mlk-day",
+      "date": "2021-01-18",
+      "type": "official_holiday",
+      "title": "Martin Luther King Jr. Day",
+      "holidayId": "us.mlk-day",
+      "sourceIds": [
+        "us-opm-2021"
+      ]
+    },
+    {
+      "id": "us.2021.washingtons-birthday",
+      "date": "2021-02-15",
+      "type": "official_holiday",
+      "title": "Washington's Birthday",
+      "holidayId": "us.washingtons-birthday",
+      "sourceIds": [
+        "us-opm-2021"
+      ]
+    },
+    {
+      "id": "us.2021.memorial-day",
+      "date": "2021-05-31",
+      "type": "official_holiday",
+      "title": "Memorial Day",
+      "holidayId": "us.memorial-day",
+      "sourceIds": [
+        "us-opm-2021"
+      ]
+    },
+    {
+      "id": "us.2021.juneteenth",
+      "date": "2021-06-19",
+      "type": "official_holiday",
+      "title": "Juneteenth National Independence Day",
+      "holidayId": "us.juneteenth",
+      "sourceIds": [
+        "us-opm-2021"
+      ]
+    },
+    {
+      "id": "us.2021.independence-day",
+      "date": "2021-07-04",
+      "type": "official_holiday",
+      "title": "Independence Day",
+      "holidayId": "us.independence-day",
+      "sourceIds": [
+        "us-opm-2021"
+      ]
+    },
+    {
+      "id": "us.2021.labor-day",
+      "date": "2021-09-06",
+      "type": "official_holiday",
+      "title": "Labor Day",
+      "holidayId": "us.labor-day",
+      "sourceIds": [
+        "us-opm-2021"
+      ]
+    },
+    {
+      "id": "us.2021.columbus-day",
+      "date": "2021-10-11",
+      "type": "official_holiday",
+      "title": "Columbus Day",
+      "holidayId": "us.columbus-day",
+      "sourceIds": [
+        "us-opm-2021"
+      ]
+    },
+    {
+      "id": "us.2021.veterans-day",
+      "date": "2021-11-11",
+      "type": "official_holiday",
+      "title": "Veterans Day",
+      "holidayId": "us.veterans-day",
+      "sourceIds": [
+        "us-opm-2021"
+      ]
+    },
+    {
+      "id": "us.2021.christmas-day",
+      "date": "2021-12-25",
+      "type": "official_holiday",
+      "title": "Christmas Day",
+      "holidayId": "us.christmas-day",
+      "sourceIds": [
+        "us-opm-2021"
+      ]
+    }
+  ]
+}
