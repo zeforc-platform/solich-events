@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "documentType": "official_calendar_overrides",
+  "jurisdiction": {
+    "country": "JP",
+    "subdivision": null
+  },
+  "year": 2026,
+  "scheduleScope": "nationwide_statutory",
+  "status": "published",
+  "updatedAt": "2026-08-13T00:00:00Z",
+  "sources": [
+    {
+      "id": "jp-cabinet-2026",
+      "title": "2026年 国民の祝日",
+      "authority": "内閣府",
+      "url": "https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html",
+      "publishedAt": "2025-02-01"
+    }
+  ],
+  "entries": [
+    {
+      "id": "jp.2026.new-years-day",
+      "date": "2026-01-01",
+      "type": "official_holiday",
+      "title": "元日",
+      "holidayId": "jp.new-years-day",
+      "sourceIds": [
+        "jp-cabinet-2026"
+      ]
+    },
+    {
+      "id": "jp.2026.coming-of-age-day",
+      "date": "2026-01-12",
+      "type": "official_holiday",
+      "title": "成人の日",
+      "holidayId": "jp.coming-of-age-day",
+      "sourceIds": [
+        "jp-cabinet-2026"
+      ]
+    },
+    {
+      "id": "jp.2026.foundation-day",
+      "date": "2026-02-11",
+      "type": "official_holiday",
+      "title": "建国記念の日",
+      "holidayId": "jp.foundation-day",
+      "sourceIds": [
+        "jp-cabinet-2026"
+      ]
+    },
+    {
+      "id": "jp.2026.emperors-birthday",
+      "date": "2026-02-23",
+      "type": "official_holiday",
+      "title": "天皇誕生日",
+      "holidayId": "jp.emperors-birthday",
+      "sourceIds": [
+        "jp-cabinet-2026"
+      ]
+    },
+    {
+      "id": "jp.2026.vernal-equinox",
+      "date": "2026-03-20",
+      "type": "official_holiday",
+      "title": "春分の日",
+      "holidayId": "jp.vernal-equinox",
+      "sourceIds": [
+        "jp-cabinet-2026"
+      ]
+    },
+    {
+      "id": "jp.2026.showa-day",
+      "date": "2026-04-29",
+      "type": "official_holiday",
+      "title": "昭和の日",
+      "holidayId": "jp.showa-day",
+      "sourceIds": [
+        "jp-cabinet-2026"
+      ]
+    },
+    {
+      "id": "jp.2026.constitution-day",
+      "date": "2026-05-03",
+      "type": "official_holiday",
+      "title": "憲法記念日",
+      "holidayId": "jp.constitution-day",
+      "sourceIds": [
+        "jp-cabinet-2026"
+      ]
+    },
+    {
+      "id": "jp.2026.greenery-day",
+      "date": "2026-05-04",
+      "type": "official_holiday",
+      "title": "みどりの日",
+      "holidayId": "jp.greenery-day",
+      "sourceIds": [
+        "jp-cabinet-2026"
+      ]
+    },
+    {
+      "id": "jp.2026.childrens-day",
+      "date": "2026-05-05",
+      "type": "official_holiday",
+      "title": "こどもの日",
+      "holidayId": "jp.childrens-day",
+      "sourceIds": [
+        "jp-cabinet-2026"
+      ]
+    },
+    {
+      "id": "jp.2026.substitute-1",
+      "date": "2026-05-06",
+      "type": "compensatory_leave",
+      "title": "振替休日",
+      "holidayId": "jp.substitute-holiday",
+      "sourceIds": [
+        "jp-cabinet-2026"
+      ]
+    },
+    {
+      "id": "jp.2026.marine-day",
+      "date": "2026-07-20",
+      "type": "official_holiday",
+      "title": "海の日",
+      "holidayId": "jp.marine-day",
+      "sourceIds": [
+        "jp-cabinet-2026"
+      ]
+    },
+    {
+      "id": "jp.2026.mountain-day",
+      "date": "2026-08-11",
+      "type": "official_holiday",
+      "title": "山の日",
+      "holidayId": "jp.mountain-day",
+      "sourceIds": [
+        "jp-cabinet-2026"
+      ]
+    },
+    {
+      "id": "jp.2026.respect-for-the-aged-day",
+      "date": "2026-09-21",
+      "type": "official_holiday",
+      "title": "敬老の日",
+      "holidayId": "jp.respect-for-the-aged-day",
+      "sourceIds": [
+        "jp-cabinet-2026"
+      ]
+    },
+    {
+      "id": "jp.2026.national-holiday-1",
+      "date": "2026-09-22",
+      "type": "official_leave",
+      "title": "国民の休日",
+      "holidayId": "jp.national-holiday",
+      "sourceIds": [
+        "jp-cabinet-2026"
+      ]
+    },
+    {
+      "id": "jp.2026.autumnal-equinox",
+      "date": "2026-09-23",
+      "type": "official_holiday",
+      "title": "秋分の日",
+      "holidayId": "jp.autumnal-equinox",
+      "sourceIds": [
+        "jp-cabinet-2026"
+      ]
+    },
+    {
+      "id": "jp.2026.sports-day",
+      "date": "2026-10-12",
+      "type": "official_holiday",
+      "title": "スポーツの日",
+      "holidayId": "jp.sports-day",
+      "sourceIds": [
+        "jp-cabinet-2026"
+      ]
+    },
+    {
+      "id": "jp.2026.culture-day",
+      "date": "2026-11-03",
+      "type": "official_holiday",
+      "title": "文化の日",
+      "holidayId": "jp.culture-day",
+      "sourceIds": [
+        "jp-cabinet-2026"
+      ]
+    },
+    {
+      "id": "jp.2026.labor-thanksgiving-day",
+      "date": "2026-11-23",
+      "type": "official_holiday",
+      "title": "勤労感謝の日",
+      "holidayId": "jp.labor-thanksgiving-day",
+      "sourceIds": [
+        "jp-cabinet-2026"
+      ]
+    }
+  ]
+}
