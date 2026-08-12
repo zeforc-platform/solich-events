@@ -7,6 +7,12 @@ is placed under `data/v1/<country>/subdivisions/<subdivision>/`; for example,
 `data/v1/US/subdivisions/US-CA/`. Consumers merge the country root first, then
 the selected subdivision feed.
 
+`data/v1/international/observances/catalog.json` is the shared catalogue for
+global, cross-border, and religion/culture-specific observances. Each entry
+declares `applicability`: `all` renders for every enabled country; `countries`
+renders when at least one enabled country is listed. Consumers merge it once,
+so selecting a primary and secondary country never duplicates an event.
+
 ## Three independent data layers
 
 | File | Purpose | Change cadence |
@@ -25,6 +31,8 @@ without confusing a remembrance day with a public holiday. The v1 values are
 `national_commemoration`, `historical_commemoration`, `cultural_traditional`,
 `religious_traditional`, `professional_commemoration`,
 `family_social_observance`, and `international_observance`.
+The shared catalogue additionally uses `religious_observance` and
+`social_cultural_observance` for modern or non-traditional observances.
 
 ## Official override event types
 
