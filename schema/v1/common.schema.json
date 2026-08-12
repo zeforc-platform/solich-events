@@ -24,6 +24,43 @@
         "toYear": { "type": ["integer", "null"], "minimum": 1 }
       }
     },
+    "observanceType": {
+      "enum": [
+        "national_commemoration",
+        "historical_commemoration",
+        "cultural_traditional",
+        "religious_traditional",
+        "religious_observance",
+        "professional_commemoration",
+        "family_social_observance",
+        "social_cultural_observance",
+        "international_observance"
+      ]
+    },
+    "applicability": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["mode"],
+          "properties": { "mode": { "const": "all" } }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["mode", "countries"],
+          "properties": {
+            "mode": { "const": "countries" },
+            "countries": {
+              "type": "array",
+              "minItems": 1,
+              "uniqueItems": true,
+              "items": { "type": "string", "pattern": "^[A-Z]{2}$" }
+            }
+          }
+        }
+      ]
+    },
     "source": {
       "type": "object",
       "additionalProperties": false,

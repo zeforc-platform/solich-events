@@ -1,13 +1,13 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://zeforc.com/solich-events/schema/v1/holiday-catalog.schema.json",
-  "title": "Sổ Lịch holiday catalogue v1",
+  "$id": "https://zeforc.com/solich-events/schema/v1/international-observance-catalog.schema.json",
+  "title": "Sổ Lịch international observance catalogue v1",
   "type": "object",
   "additionalProperties": false,
   "required": [
     "schemaVersion",
     "documentType",
-    "jurisdiction",
+    "scope",
     "kind",
     "updatedAt",
     "entries",
@@ -15,9 +15,9 @@
   ],
   "properties": {
     "schemaVersion": { "const": 1 },
-    "documentType": { "const": "holiday_catalog" },
-    "jurisdiction": { "$ref": "common.schema.json#/$defs/jurisdiction" },
-    "kind": { "enum": ["official", "observance"] },
+    "documentType": { "const": "international_observance_catalog" },
+    "scope": { "const": "international" },
+    "kind": { "const": "observance" },
     "updatedAt": { "type": "string", "format": "date-time" },
     "sources": {
       "type": "array",
@@ -35,7 +35,9 @@
           "categoryId",
           "rule",
           "effective",
-          "sourceIds"
+          "sourceIds",
+          "observanceType",
+          "applicability"
         ],
         "properties": {
           "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9.-]*$" },
@@ -50,21 +52,9 @@
             "items": { "type": "string", "minLength": 1 }
           },
           "observanceType": {
-            "$ref": "common.schema.json#/$defs/observanceType",
-            "description": "Required by the Vietnam observance catalogue; not used for statutory holiday entries."
+            "$ref": "common.schema.json#/$defs/observanceType"
           },
-          "leavePolicy": {
-            "type": "object",
-            "additionalProperties": false,
-            "required": ["kind"],
-            "properties": {
-              "kind": {
-                "enum": ["none", "same_day", "annual_schedule_required"]
-              },
-              "statutoryDays": { "type": "integer", "minimum": 1 },
-              "additionalDaySelection": { "enum": ["government_announced"] }
-            }
-          }
+          "applicability": { "$ref": "common.schema.json#/$defs/applicability" }
         }
       }
     }
