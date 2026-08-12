@@ -10,12 +10,86 @@
     "officialCatalog": "official/catalog.json",
     "observanceCatalog": "observances/catalog.json",
     "officialOverrides": [
-      { "year": 2020, "path": "official/overrides/2020.json", "status": "published" },
-      { "year": 2021, "path": "official/overrides/2021.json", "status": "published" },
-      { "year": 2022, "path": "official/overrides/2022.json", "status": "published" },
-      { "year": 2023, "path": "official/overrides/2023.json", "status": "published" },
-      { "year": 2024, "path": "official/overrides/2024.json", "status": "published" },
-      { "year": 2025, "path": "official/overrides/2025.json", "status": "published" },
+	  {
+		"year": 2010,
+		"path": "official/overrides/2010.json",
+		"status": "published"
+	  },
+	  {
+		"year": 2011,
+		"path": "official/overrides/2011.json",
+		"status": "published"
+	  },
+	  {
+		"year": 2012,
+		"path": "official/overrides/2012.json",
+		"status": "published"
+	  },
+	  {
+		"year": 2013,
+		"path": "official/overrides/2013.json",
+		"status": "published"
+	  },
+	  {
+		"year": 2014,
+		"path": "official/overrides/2014.json",
+		"status": "published"
+	  },
+	  {
+		"year": 2015,
+		"path": "official/overrides/2015.json",
+		"status": "published"
+	  },
+	  {
+		"year": 2016,
+		"path": "official/overrides/2016.json",
+		"status": "published"
+	  },
+	  {
+		"year": 2017,
+		"path": "official/overrides/2017.json",
+		"status": "published"
+	  },
+	  {
+		"year": 2018,
+		"path": "official/overrides/2018.json",
+		"status": "published"
+	  },
+	  {
+		"year": 2019,
+		"path": "official/overrides/2019.json",
+		"status": "published"
+	  },
+      {
+        "year": 2020,
+        "path": "official/overrides/2020.json",
+        "status": "published"
+      },
+      {
+        "year": 2021,
+        "path": "official/overrides/2021.json",
+        "status": "published"
+      },
+      {
+        "year": 2022,
+        "path": "official/overrides/2022.json",
+        "status": "published"
+      },
+      {
+        "year": 2023,
+        "path": "official/overrides/2023.json",
+        "status": "published"
+      },
+      {
+        "year": 2024,
+        "path": "official/overrides/2024.json",
+        "status": "published"
+      },
+      {
+        "year": 2025,
+        "path": "official/overrides/2025.json",
+        "status": "published"
+      },
       {
         "year": 2026,
         "path": "official/overrides/2026.json",

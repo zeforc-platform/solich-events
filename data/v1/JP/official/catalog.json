@@ -29,9 +29,7 @@
       "effective": {
         "fromYear": 1948
       },
-      "sourceIds": [
-        "jp-cabinet-office"
-      ],
+      "sourceIds": ["jp-cabinet-office"],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -50,9 +48,7 @@
       "effective": {
         "fromYear": 2000
       },
-      "sourceIds": [
-        "jp-cabinet-office"
-      ],
+      "sourceIds": ["jp-cabinet-office"],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -70,9 +66,7 @@
       "effective": {
         "fromYear": 1966
       },
-      "sourceIds": [
-        "jp-cabinet-office"
-      ],
+      "sourceIds": ["jp-cabinet-office"],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -90,9 +84,7 @@
       "effective": {
         "fromYear": 2020
       },
-      "sourceIds": [
-        "jp-cabinet-office"
-      ],
+      "sourceIds": ["jp-cabinet-office"],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -110,9 +102,7 @@
       "effective": {
         "fromYear": 1948
       },
-      "sourceIds": [
-        "jp-cabinet-office"
-      ],
+      "sourceIds": ["jp-cabinet-office"],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -130,9 +120,7 @@
       "effective": {
         "fromYear": 2007
       },
-      "sourceIds": [
-        "jp-cabinet-office"
-      ],
+      "sourceIds": ["jp-cabinet-office"],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -150,9 +138,7 @@
       "effective": {
         "fromYear": 1948
       },
-      "sourceIds": [
-        "jp-cabinet-office"
-      ],
+      "sourceIds": ["jp-cabinet-office"],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -170,9 +156,7 @@
       "effective": {
         "fromYear": 2007
       },
-      "sourceIds": [
-        "jp-cabinet-office"
-      ],
+      "sourceIds": ["jp-cabinet-office"],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -190,9 +174,7 @@
       "effective": {
         "fromYear": 1948
       },
-      "sourceIds": [
-        "jp-cabinet-office"
-      ],
+      "sourceIds": ["jp-cabinet-office"],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -211,9 +193,7 @@
       "effective": {
         "fromYear": 2003
       },
-      "sourceIds": [
-        "jp-cabinet-office"
-      ],
+      "sourceIds": ["jp-cabinet-office"],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -231,9 +211,7 @@
       "effective": {
         "fromYear": 2016
       },
-      "sourceIds": [
-        "jp-cabinet-office"
-      ],
+      "sourceIds": ["jp-cabinet-office"],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -252,9 +230,7 @@
       "effective": {
         "fromYear": 2003
       },
-      "sourceIds": [
-        "jp-cabinet-office"
-      ],
+      "sourceIds": ["jp-cabinet-office"],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -272,9 +248,7 @@
       "effective": {
         "fromYear": 1948
       },
-      "sourceIds": [
-        "jp-cabinet-office"
-      ],
+      "sourceIds": ["jp-cabinet-office"],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -293,9 +267,7 @@
       "effective": {
         "fromYear": 2020
       },
-      "sourceIds": [
-        "jp-cabinet-office"
-      ],
+      "sourceIds": ["jp-cabinet-office"],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -313,9 +285,7 @@
       "effective": {
         "fromYear": 1948
       },
-      "sourceIds": [
-        "jp-cabinet-office"
-      ],
+      "sourceIds": ["jp-cabinet-office"],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -333,9 +303,7 @@
       "effective": {
         "fromYear": 1948
       },
-      "sourceIds": [
-        "jp-cabinet-office"
-      ],
+      "sourceIds": ["jp-cabinet-office"],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -354,9 +322,7 @@
         "fromYear": 1973,
         "toYear": 1973
       },
-      "sourceIds": [
-        "jp-cabinet-office"
-      ],
+      "sourceIds": ["jp-cabinet-office"],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -375,9 +341,7 @@
         "fromYear": 1985,
         "toYear": 1985
       },
-      "sourceIds": [
-        "jp-cabinet-office"
-      ],
+      "sourceIds": ["jp-cabinet-office"],
       "leavePolicy": {
         "kind": "same_day"
       }

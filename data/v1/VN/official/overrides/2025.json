@@ -7,15 +7,70 @@
   "status": "published",
   "updatedAt": "2026-08-13T00:00:00Z",
   "sources": [
-    { "id": "vn-office-gov-8726-2024", "title": "Văn bản số 8726/VPCP-KGVX về nghỉ Tết Âm lịch và các dịp lễ năm 2025", "authority": "Văn phòng Chính phủ", "url": "https://xaydungchinhsach.chinhphu.vn/lich-nghi-tet-nguyen-dan-at-ty-2025-119241127052424956.htm", "publishedAt": "2024-11-26" }
+    {
+      "id": "vn-office-gov-8726-2024",
+      "title": "Văn bản số 8726/VPCP-KGVX về nghỉ Tết Âm lịch và các dịp lễ năm 2025",
+      "authority": "Văn phòng Chính phủ",
+      "url": "https://xaydungchinhsach.chinhphu.vn/lich-nghi-tet-nguyen-dan-at-ty-2025-119241127052424956.htm",
+      "publishedAt": "2024-11-26"
+    }
   ],
   "entries": [
-    { "id": "vn.2025.lunar-new-year.leave-before-2", "date": "2025-01-27", "type": "official_leave", "title": "Nghỉ Tết Nguyên Đán", "holidayId": "vn.lunar-new-year", "sourceIds": ["vn-office-gov-8726-2024"] },
-    { "id": "vn.2025.lunar-new-year.leave-before-1", "date": "2025-01-28", "type": "official_leave", "title": "Nghỉ Tết Nguyên Đán", "holidayId": "vn.lunar-new-year", "sourceIds": ["vn-office-gov-8726-2024"] },
-    { "id": "vn.2025.lunar-new-year.leave-after-1", "date": "2025-01-30", "type": "official_leave", "title": "Nghỉ Tết Nguyên Đán", "holidayId": "vn.lunar-new-year", "sourceIds": ["vn-office-gov-8726-2024"] },
-    { "id": "vn.2025.lunar-new-year.leave-after-2", "date": "2025-01-31", "type": "official_leave", "title": "Nghỉ Tết Nguyên Đán", "holidayId": "vn.lunar-new-year", "sourceIds": ["vn-office-gov-8726-2024"] },
-    { "id": "vn.2025.reunification-day.exchange-workday", "date": "2025-04-26", "type": "compensatory_workday", "title": "Làm bù dịp 30/4 - 1/5", "holidayId": "vn.reunification-day", "sourceIds": ["vn-office-gov-8726-2024"] },
-    { "id": "vn.2025.reunification-day.exchange-leave", "date": "2025-05-02", "type": "official_leave", "title": "Nghỉ hoán đổi dịp 30/4 - 1/5", "holidayId": "vn.reunification-day", "sourceIds": ["vn-office-gov-8726-2024"] },
-    { "id": "vn.2025.national-day.additional-statutory-leave", "date": "2025-09-01", "type": "official_leave", "title": "Nghỉ lễ Quốc khánh", "holidayId": "vn.national-day", "sourceIds": ["vn-office-gov-8726-2024"] }
+    {
+      "id": "vn.2025.lunar-new-year.leave-before-2",
+      "date": "2025-01-27",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-office-gov-8726-2024"]
+    },
+    {
+      "id": "vn.2025.lunar-new-year.leave-before-1",
+      "date": "2025-01-28",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-office-gov-8726-2024"]
+    },
+    {
+      "id": "vn.2025.lunar-new-year.leave-after-1",
+      "date": "2025-01-30",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-office-gov-8726-2024"]
+    },
+    {
+      "id": "vn.2025.lunar-new-year.leave-after-2",
+      "date": "2025-01-31",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-office-gov-8726-2024"]
+    },
+    {
+      "id": "vn.2025.reunification-day.exchange-workday",
+      "date": "2025-04-26",
+      "type": "compensatory_workday",
+      "title": "Làm bù dịp 30/4 - 1/5",
+      "holidayId": "vn.reunification-day",
+      "sourceIds": ["vn-office-gov-8726-2024"]
+    },
+    {
+      "id": "vn.2025.reunification-day.exchange-leave",
+      "date": "2025-05-02",
+      "type": "official_leave",
+      "title": "Nghỉ hoán đổi dịp 30/4 - 1/5",
+      "holidayId": "vn.reunification-day",
+      "sourceIds": ["vn-office-gov-8726-2024"]
+    },
+    {
+      "id": "vn.2025.national-day.additional-statutory-leave",
+      "date": "2025-09-01",
+      "type": "official_leave",
+      "title": "Nghỉ lễ Quốc khánh",
+      "holidayId": "vn.national-day",
+      "sourceIds": ["vn-office-gov-8726-2024"]
+    }
   ]
 }
