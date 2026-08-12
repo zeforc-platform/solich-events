@@ -4,7 +4,17 @@
   "title": "Sổ Lịch official calendar overrides v1",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schemaVersion", "documentType", "jurisdiction", "year", "scheduleScope", "status", "updatedAt", "entries", "sources"],
+  "required": [
+    "schemaVersion",
+    "documentType",
+    "jurisdiction",
+    "year",
+    "scheduleScope",
+    "status",
+    "updatedAt",
+    "entries",
+    "sources"
+  ],
   "properties": {
     "schemaVersion": { "const": 1 },
     "documentType": { "const": "official_calendar_overrides" },
@@ -16,7 +26,10 @@
     },
     "status": { "enum": ["pending", "published"] },
     "updatedAt": { "type": "string", "format": "date-time" },
-    "sources": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/source" } },
+    "sources": {
+      "type": "array",
+      "items": { "$ref": "common.schema.json#/$defs/source" }
+    },
     "entries": {
       "type": "array",
       "items": {
@@ -26,10 +39,21 @@
         "properties": {
           "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9.-]*$" },
           "date": { "type": "string", "format": "date" },
-          "type": { "enum": ["official_holiday", "official_leave", "compensatory_leave", "compensatory_workday"] },
+          "type": {
+            "enum": [
+              "official_holiday",
+              "official_leave",
+              "compensatory_leave",
+              "compensatory_workday"
+            ]
+          },
           "title": { "type": "string", "minLength": 1 },
           "holidayId": { "type": "string", "minLength": 1 },
-          "sourceIds": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } }
+          "sourceIds": {
+            "type": "array",
+            "minItems": 1,
+            "items": { "type": "string", "minLength": 1 }
+          }
         }
       }
     }

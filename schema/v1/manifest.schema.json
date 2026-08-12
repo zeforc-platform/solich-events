@@ -4,7 +4,13 @@
   "title": "Sổ Lịch jurisdiction manifest v1",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schemaVersion", "documentType", "jurisdiction", "updatedAt", "feeds"],
+  "required": [
+    "schemaVersion",
+    "documentType",
+    "jurisdiction",
+    "updatedAt",
+    "feeds"
+  ],
   "properties": {
     "schemaVersion": { "const": 1 },
     "documentType": { "const": "jurisdiction_manifest" },
