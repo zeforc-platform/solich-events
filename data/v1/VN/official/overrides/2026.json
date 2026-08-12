@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "documentType": "official_calendar_overrides",
+  "jurisdiction": {
+    "country": "VN",
+    "subdivision": null
+  },
+  "year": 2026,
+  "scheduleScope": "public_sector_schedule",
+  "status": "published",
+  "updatedAt": "2026-08-13T00:00:00Z",
+  "sources": [
+    {
+      "id": "vn-office-gov-12729-2025",
+      "title": "Văn bản số 12729/VPCP-KGVX về nghỉ Tết Dương lịch 2026",
+      "authority": "Văn phòng Chính phủ",
+      "url": "https://baochinhphu.vn/thu-tuong-chinh-phu-dong-y-nghi-4-ngay-tet-duong-lich-2026-102251225095413405.htm",
+      "publishedAt": "2025-12-25"
+    },
+    {
+      "id": "vn-office-gov-9859-2025",
+      "title": "Công văn số 9859/VPCP-KGVX về nghỉ Tết Âm lịch, nghỉ lễ Quốc khánh năm 2026",
+      "authority": "Văn phòng Chính phủ",
+      "url": "https://vanban.chinhphu.vn/?docid=215596&pageid=27160",
+      "publishedAt": "2025-10-13"
+    },
+    {
+      "id": "vn-ministry-home-affairs-3383-2026",
+      "title": "Công văn số 3383/BNV-CVL về lịch nghỉ Giỗ Tổ Hùng Vương, 30/4 và 1/5 năm 2026",
+      "authority": "Bộ Nội vụ",
+      "url": "https://baochinhphu.vn/chinh-thuc-bo-noi-vu-ra-thong-bao-lich-nghi-gio-to-hung-vuong-le-30-4-1-5-102260410213402453.htm",
+      "publishedAt": "2026-04-10"
+    }
+  ],
+  "entries": [
+    {
+      "id": "vn.2026.new-years-day.exchange-leave",
+      "date": "2026-01-02",
+      "type": "official_leave",
+      "title": "Nghỉ hoán đổi Tết Dương lịch",
+      "holidayId": "vn.new-years-day",
+      "sourceIds": ["vn-office-gov-12729-2025"]
+    },
+    {
+      "id": "vn.2026.new-years-day.exchange-workday",
+      "date": "2026-01-10",
+      "type": "compensatory_workday",
+      "title": "Làm bù Tết Dương lịch",
+      "holidayId": "vn.new-years-day",
+      "sourceIds": ["vn-office-gov-12729-2025"]
+    },
+    {
+      "id": "vn.2026.lunar-new-year.leave-before",
+      "date": "2026-02-16",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-office-gov-9859-2025"]
+    },
+    {
+      "id": "vn.2026.lunar-new-year.leave-after-1",
+      "date": "2026-02-18",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-office-gov-9859-2025"]
+    },
+    {
+      "id": "vn.2026.lunar-new-year.leave-after-2",
+      "date": "2026-02-19",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-office-gov-9859-2025"]
+    },
+    {
+      "id": "vn.2026.lunar-new-year.leave-after-3",
+      "date": "2026-02-20",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-office-gov-9859-2025"]
+    },
+    {
+      "id": "vn.2026.hung-kings-commemoration.compensatory-leave",
+      "date": "2026-04-27",
+      "type": "compensatory_leave",
+      "title": "Nghỉ bù Giỗ Tổ Hùng Vương",
+      "holidayId": "vn.hung-kings-commemoration",
+      "sourceIds": ["vn-ministry-home-affairs-3383-2026"]
+    },
+    {
+      "id": "vn.2026.national-day.exchange-workday",
+      "date": "2026-08-22",
+      "type": "compensatory_workday",
+      "title": "Làm bù Quốc khánh",
+      "holidayId": "vn.national-day",
+      "sourceIds": ["vn-office-gov-9859-2025"]
+    },
+    {
+      "id": "vn.2026.national-day.exchange-leave",
+      "date": "2026-08-31",
+      "type": "official_leave",
+      "title": "Nghỉ hoán đổi Quốc khánh",
+      "holidayId": "vn.national-day",
+      "sourceIds": ["vn-office-gov-9859-2025"]
+    },
+    {
+      "id": "vn.2026.national-day.additional-statutory-leave",
+      "date": "2026-09-01",
+      "type": "official_leave",
+      "title": "Nghỉ lễ Quốc khánh",
+      "holidayId": "vn.national-day",
+      "sourceIds": ["vn-office-gov-9859-2025"]
+    }
+  ]
+}

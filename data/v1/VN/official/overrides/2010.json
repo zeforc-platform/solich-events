@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "documentType": "official_calendar_overrides",
+  "jurisdiction": {
+    "country": "VN",
+    "subdivision": null
+  },
+  "year": 2010,
+  "scheduleScope": "public_sector_schedule",
+  "status": "published",
+  "updatedAt": "2026-08-13T00:00:00Z",
+  "sources": [
+    {
+      "id": "vn-office-gov-872-2010",
+      "title": "Văn bản số 872/VPCP-KGVX về việc hoán đổi ngày nghỉ Tết Âm lịch năm 2010",
+      "authority": "Văn phòng Chính phủ",
+      "url": "https://thuvienphapluat.vn/van-ban/Lao-dong-Tien-luong/Cong-van-872-VPCP-KGVX-hoan-doi-ngay-nghi-vao-dip-nghi-Tet-Am-lich-2010-101168.aspx",
+      "publishedAt": "2010-02-05"
+    },
+    {
+      "id": "vn-office-gov-5971-2010",
+      "title": "Công văn số 5971/VPCP-KGVX về việc hoán đổi ngày nghỉ dịp Quốc khánh năm 2010",
+      "authority": "Văn phòng Chính phủ",
+      "url": "https://thuvienphapluat.vn/van-ban/Lao-dong-Tien-luong/Cong-van-5971-VPCP-KGVX-hoan-doi-ngay-nghi-hang-tuan-vao-dip-nghi-le-Quoc-khanh-110825.aspx",
+      "publishedAt": "2010-08-25"
+    }
+  ],
+  "entries": [
+    {
+      "id": "vn.2010.lunar-new-year.exchange-leave",
+      "date": "2010-02-19",
+      "type": "official_leave",
+      "title": "Nghỉ hoán đổi Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-office-gov-872-2010"]
+    },
+    {
+      "id": "vn.2010.lunar-new-year.exchange-workday",
+      "date": "2010-02-27",
+      "type": "compensatory_workday",
+      "title": "Làm bù Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-office-gov-872-2010"]
+    },
+    {
+      "id": "vn.2010.national-day.exchange-leave",
+      "date": "2010-09-03",
+      "type": "official_leave",
+      "title": "Nghỉ hoán đổi Quốc khánh",
+      "holidayId": "vn.national-day",
+      "sourceIds": ["vn-office-gov-5971-2010"]
+    },
+    {
+      "id": "vn.2010.national-day.exchange-workday",
+      "date": "2010-09-11",
+      "type": "compensatory_workday",
+      "title": "Làm bù Quốc khánh",
+      "holidayId": "vn.national-day",
+      "sourceIds": ["vn-office-gov-5971-2010"]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "documentType": "official_calendar_overrides",
+  "jurisdiction": {
+    "country": "VN",
+    "subdivision": null
+  },
+  "year": 2019,
+  "scheduleScope": "public_sector_schedule",
+  "status": "published",
+  "updatedAt": "2026-08-13T00:00:00Z",
+  "sources": [
+    {
+      "id": "vn-molisa-3238-2018",
+      "title": "Thông báo số 3238/TB-LĐTBXH về việc nghỉ Lễ, Tết năm 2019",
+      "authority": "Bộ Lao động - Thương binh và Xã hội",
+      "url": "https://thuvienphapluat.vn/van-ban/Lao-dong-Tien-luong/Thong-bao-3238-TB-LDTBXH-nghi-le-tet-2019-voi-can-bo-cong-chuc-vien-chuc-nguoi-lao-dong-390494.aspx",
+      "publishedAt": "2018-08-06"
+    }
+  ],
+  "entries": [
+    {
+      "id": "vn.2019.new-years-day.exchange-leave",
+      "date": "2018-12-31",
+      "type": "official_leave",
+      "title": "Nghỉ hoán đổi Tết Dương lịch",
+      "holidayId": "vn.new-years-day",
+      "sourceIds": ["vn-molisa-3238-2018"]
+    },
+    {
+      "id": "vn.2019.new-years-day.exchange-workday",
+      "date": "2019-01-05",
+      "type": "compensatory_workday",
+      "title": "Làm bù Tết Dương lịch",
+      "holidayId": "vn.new-years-day",
+      "sourceIds": ["vn-molisa-3238-2018"]
+    },
+    {
+      "id": "vn.2019.lunar-new-year.leave-1",
+      "date": "2019-02-04",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-molisa-3238-2018"]
+    },
+    {
+      "id": "vn.2019.lunar-new-year.leave-2",
+      "date": "2019-02-05",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-molisa-3238-2018"]
+    },
+    {
+      "id": "vn.2019.lunar-new-year.leave-3",
+      "date": "2019-02-06",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-molisa-3238-2018"]
+    },
+    {
+      "id": "vn.2019.lunar-new-year.leave-4",
+      "date": "2019-02-07",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-molisa-3238-2018"]
+    },
+    {
+      "id": "vn.2019.lunar-new-year.leave-5",
+      "date": "2019-02-08",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-molisa-3238-2018"]
+    },
+    {
+      "id": "vn.2019.hung-kings.compensatory-leave",
+      "date": "2019-04-15",
+      "type": "compensatory_leave",
+      "title": "Nghỉ bù Giỗ Tổ Hùng Vương",
+      "holidayId": "vn.hung-kings-commemoration",
+      "sourceIds": ["vn-molisa-3238-2018"]
+    },
+    {
+      "id": "vn.2019.reunification-day.exchange-leave",
+      "date": "2019-04-29",
+      "type": "official_leave",
+      "title": "Nghỉ hoán đổi dịp lễ 30/4",
+      "holidayId": "vn.reunification-day",
+      "sourceIds": ["vn-molisa-3238-2018"]
+    },
+    {
+      "id": "vn.2019.reunification-day.exchange-workday",
+      "date": "2019-05-04",
+      "type": "compensatory_workday",
+      "title": "Làm bù dịp lễ 30/4",
+      "holidayId": "vn.reunification-day",
+      "sourceIds": ["vn-molisa-3238-2018"]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "schemaVersion": 1,
+  "documentType": "official_calendar_overrides",
+  "jurisdiction": { "country": "VN", "subdivision": null },
+  "year": 2021,
+  "scheduleScope": "public_sector_schedule",
+  "status": "published",
+  "updatedAt": "2026-08-13T00:00:00Z",
+  "sources": [
+    {
+      "id": "vn-office-gov-2021-holidays",
+      "title": "Phương án nghỉ Tết Âm lịch và Quốc khánh năm 2021",
+      "authority": "Văn phòng Chính phủ",
+      "url": "https://baochinhphu.vn/thu-tuong-chot-phuong-an-nghi-tet-am-lich-7-ngay-102283382.htm",
+      "publishedAt": "2020-11-27"
+    },
+    {
+      "id": "vn-labour-code-2019",
+      "title": "Bộ luật Lao động số 45/2019/QH14",
+      "authority": "Quốc hội",
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=198540&pageid=27160&typegroupid=3",
+      "publishedAt": "2019-11-20"
+    }
+  ],
+  "entries": [
+    {
+      "id": "vn.2021.lunar-new-year.leave-before-2",
+      "date": "2021-02-10",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-office-gov-2021-holidays"]
+    },
+    {
+      "id": "vn.2021.lunar-new-year.leave-before-1",
+      "date": "2021-02-11",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-office-gov-2021-holidays"]
+    },
+    {
+      "id": "vn.2021.lunar-new-year.leave-after-1",
+      "date": "2021-02-13",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-office-gov-2021-holidays"]
+    },
+    {
+      "id": "vn.2021.lunar-new-year.leave-after-2",
+      "date": "2021-02-14",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-office-gov-2021-holidays"]
+    },
+    {
+      "id": "vn.2021.lunar-new-year.compensatory-leave-1",
+      "date": "2021-02-15",
+      "type": "compensatory_leave",
+      "title": "Nghỉ bù Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-office-gov-2021-holidays"]
+    },
+    {
+      "id": "vn.2021.lunar-new-year.compensatory-leave-2",
+      "date": "2021-02-16",
+      "type": "compensatory_leave",
+      "title": "Nghỉ bù Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-office-gov-2021-holidays"]
+    },
+    {
+      "id": "vn.2021.international-workers-day.compensatory-leave",
+      "date": "2021-05-03",
+      "type": "compensatory_leave",
+      "title": "Nghỉ bù Ngày Quốc tế Lao động",
+      "holidayId": "vn.international-workers-day",
+      "sourceIds": ["vn-labour-code-2019"]
+    },
+    {
+      "id": "vn.2021.national-day.additional-statutory-leave",
+      "date": "2021-09-03",
+      "type": "official_leave",
+      "title": "Nghỉ lễ Quốc khánh",
+      "holidayId": "vn.national-day",
+      "sourceIds": ["vn-office-gov-2021-holidays"]
+    }
+  ]
+}
