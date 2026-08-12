@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://zeforc.com/solich-events/schema/v1/common.schema.json",
+  "title": "Sổ Lịch event data common definitions",
+  "$defs": {
+    "jurisdiction": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["country"],
+      "properties": {
+        "country": { "type": "string", "pattern": "^[A-Z]{2}$" },
+        "subdivision": {
+          "type": ["string", "null"],
+          "pattern": "^[A-Z]{2}-[A-Z0-9]{1,3}$"
+        }
+      }
+    },
+    "effectivePeriod": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["fromYear"],
+      "properties": {
+        "fromYear": { "type": "integer", "minimum": 1 },
+        "toYear": { "type": ["integer", "null"], "minimum": 1 }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "url"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9._-]*$" },
+        "title": { "type": "string", "minLength": 1 },
+        "authority": { "type": "string", "minLength": 1 },
+        "url": { "type": "string", "format": "uri" },
+        "publishedAt": { "type": "string", "format": "date" }
+      }
+    },
+    "calendarRule": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind", "month", "day"],
+          "properties": {
+            "kind": { "const": "solar_fixed" },
+            "month": { "type": "integer", "minimum": 1, "maximum": 12 },
+            "day": { "type": "integer", "minimum": 1, "maximum": 31 }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind", "month", "day"],
+          "properties": {
+            "kind": { "const": "lunar_fixed" },
+            "month": { "type": "integer", "minimum": 1, "maximum": 12 },
+            "day": { "type": "integer", "minimum": 1, "maximum": 30 },
+            "leapMonth": { "type": "boolean", "default": false }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["kind", "month", "weekday", "occurrence"],
+          "properties": {
+            "kind": { "const": "solar_nth_weekday" },
+            "month": { "type": "integer", "minimum": 1, "maximum": 12 },
+            "weekday": { "type": "integer", "minimum": 0, "maximum": 6 },
+            "occurrence": { "type": "integer", "minimum": 1, "maximum": 5 }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://zeforc.com/solich-events/schema/v1/holiday-catalog.schema.json",
+  "title": "Sổ Lịch holiday catalogue v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "documentType", "jurisdiction", "kind", "updatedAt", "entries", "sources"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "documentType": { "const": "holiday_catalog" },
+    "jurisdiction": { "$ref": "common.schema.json#/$defs/jurisdiction" },
+    "kind": { "enum": ["official", "observance"] },
+    "updatedAt": { "type": "string", "format": "date-time" },
+    "sources": { "type": "array", "items": { "$ref": "common.schema.json#/$defs/source" } },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "title", "icon", "categoryId", "rule", "effective", "sourceIds"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9.-]*$" },
+          "title": { "type": "string", "minLength": 1 },
+          "icon": { "type": "string", "minLength": 1 },
+          "categoryId": { "type": "string", "minLength": 1 },
+          "rule": { "$ref": "common.schema.json#/$defs/calendarRule" },
+          "effective": { "$ref": "common.schema.json#/$defs/effectivePeriod" },
+          "sourceIds": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+          "observanceType": {
+            "enum": [
+              "national_commemoration",
+              "historical_commemoration",
+              "cultural_traditional",
+              "religious_traditional",
+              "professional_commemoration",
+              "family_social_observance",
+              "international_observance"
+            ],
+            "description": "Required by the Vietnam observance catalogue; not used for statutory holiday entries."
+          },
+          "leavePolicy": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["kind"],
+            "properties": {
+              "kind": { "enum": ["none", "same_day", "annual_schedule_required"] },
+              "statutoryDays": { "type": "integer", "minimum": 1 },
+              "additionalDaySelection": { "enum": ["government_announced"] }
+            }
+          }
+        }
+      }
+    }
+  }
+}
