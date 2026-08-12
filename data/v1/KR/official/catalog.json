@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "documentType": "holiday_catalog",
+  "jurisdiction": {
+    "country": "KR",
+    "subdivision": null
+  },
+  "kind": "official",
+  "updatedAt": "2026-08-13T00:00:00Z",
+  "sources": [
+    {
+      "id": "kr-public-holidays-act",
+      "title": "관공서의 공휴일에 관한 규정",
+      "authority": "대통령령",
+      "url": "https://www.law.go.kr/lsInfoP.do?lsiSeq=233431"
+    }
+  ],
+  "entries": [
+    {
+      "id": "kr.new-years-day",
+      "title": "신정",
+      "icon": "🎆",
+      "categoryId": "le-chinh-thuc",
+      "rule": { "kind": "solar_fixed", "month": 1, "day": 1 },
+      "effective": { "fromYear": 1949 },
+      "sourceIds": ["kr-public-holidays-act"],
+      "leavePolicy": { "kind": "same_day" }
+    },
+    {
+      "id": "kr.seollal",
+      "title": "설날",
+      "icon": "🧧",
+      "categoryId": "le-chinh-thuc",
+      "rule": { "kind": "lunar_fixed", "month": 1, "day": 1, "leapMonth": false },
+      "effective": { "fromYear": 1989 },
+      "sourceIds": ["kr-public-holidays-act"],
+      "leavePolicy": { "kind": "annual_schedule_required", "statutoryDays": 3 }
+    },
+    {
+      "id": "kr.independence-movement-day",
+      "title": "3·1절",
+      "icon": "🇰🇷",
+      "categoryId": "le-chinh-thuc",
+      "rule": { "kind": "solar_fixed", "month": 3, "day": 1 },
+      "effective": { "fromYear": 1949 },
+      "sourceIds": ["kr-public-holidays-act"],
+      "leavePolicy": { "kind": "same_day" }
+    },
+    {
+      "id": "kr.childrens-day",
+      "title": "어린이날",
+      "icon": "🧸",
+      "categoryId": "le-chinh-thuc",
+      "rule": { "kind": "solar_fixed", "month": 5, "day": 5 },
+      "effective": { "fromYear": 1975 },
+      "sourceIds": ["kr-public-holidays-act"],
+      "leavePolicy": { "kind": "same_day" }
+    },
+    {
+      "id": "kr.buddhas-birthday",
+      "title": "부처님오신날",
+      "icon": "🪷",
+      "categoryId": "le-chinh-thuc",
+      "rule": { "kind": "lunar_fixed", "month": 4, "day": 8, "leapMonth": false },
+      "effective": { "fromYear": 1975 },
+      "sourceIds": ["kr-public-holidays-act"],
+      "leavePolicy": { "kind": "same_day" }
+    },
+    {
+      "id": "kr.memorial-day",
+      "title": "현충일",
+      "icon": "🕯️",
+      "categoryId": "le-chinh-thuc",
+      "rule": { "kind": "solar_fixed", "month": 6, "day": 6 },
+      "effective": { "fromYear": 1956 },
+      "sourceIds": ["kr-public-holidays-act"],
+      "leavePolicy": { "kind": "same_day" }
+    },
+    {
+      "id": "kr.election-day",
+      "title": "선거일",
+      "icon": "🗳️",
+      "categoryId": "le-chinh-thuc",
+      "rule": { "kind": "solar_fixed", "month": 6, "day": 3 },
+      "effective": { "fromYear": 2026, "toYear": 2026 },
+      "sourceIds": ["kr-public-holidays-act"],
+      "leavePolicy": { "kind": "same_day" }
+    },
+    {
+      "id": "kr.liberation-day",
+      "title": "광복절",
+      "icon": "🇰🇷",
+      "categoryId": "le-chinh-thuc",
+      "rule": { "kind": "solar_fixed", "month": 8, "day": 15 },
+      "effective": { "fromYear": 1949 },
+      "sourceIds": ["kr-public-holidays-act"],
+      "leavePolicy": { "kind": "same_day" }
+    },
+    {
+      "id": "kr.chuseok",
+      "title": "추석",
+      "icon": "🌕",
+      "categoryId": "le-chinh-thuc",
+      "rule": { "kind": "lunar_fixed", "month": 8, "day": 15, "leapMonth": false },
+      "effective": { "fromYear": 1949 },
+      "sourceIds": ["kr-public-holidays-act"],
+      "leavePolicy": { "kind": "annual_schedule_required", "statutoryDays": 3 }
+    },
+    {
+      "id": "kr.national-foundation-day",
+      "title": "개천절",
+      "icon": "🇰🇷",
+      "categoryId": "le-chinh-thuc",
+      "rule": { "kind": "solar_fixed", "month": 10, "day": 3 },
+      "effective": { "fromYear": 1949 },
+      "sourceIds": ["kr-public-holidays-act"],
+      "leavePolicy": { "kind": "same_day" }
+    },
+    {
+      "id": "kr.hangul-day",
+      "title": "한글날",
+      "icon": "📜",
+      "categoryId": "le-chinh-thuc",
+      "rule": { "kind": "solar_fixed", "month": 10, "day": 9 },
+      "effective": { "fromYear": 2013 },
+      "sourceIds": ["kr-public-holidays-act"],
+      "leavePolicy": { "kind": "same_day" }
+    },
+    {
+      "id": "kr.christmas",
+      "title": "기독탄신일",
+      "icon": "🎄",
+      "categoryId": "le-chinh-thuc",
+      "rule": { "kind": "solar_fixed", "month": 12, "day": 25 },
+      "effective": { "fromYear": 1949 },
+      "sourceIds": ["kr-public-holidays-act"],
+      "leavePolicy": { "kind": "same_day" }
+    }
+  ]
+}

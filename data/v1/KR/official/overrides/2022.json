@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "documentType": "official_calendar_overrides",
+  "jurisdiction": {
+    "country": "KR",
+    "subdivision": null
+  },
+  "year": 2022,
+  "scheduleScope": "nationwide_statutory",
+  "status": "published",
+  "updatedAt": "2026-08-13T00:00:00Z",
+  "sources": [
+    {
+      "id": "kr-moleg-2022",
+      "title": "2022년 관공서의 공휴일",
+      "authority": "인사혁신처",
+      "url": "https://www.mpm.go.kr/",
+      "publishedAt": "2021-06-01"
+    }
+  ],
+  "entries": [
+    {
+      "id": "kr.2022.seollal.leave-before",
+      "date": "2022-01-31",
+      "type": "official_leave",
+      "title": "설날 연휴",
+      "holidayId": "kr.seollal",
+      "sourceIds": [
+        "kr-moleg-2022"
+      ]
+    },
+    {
+      "id": "kr.2022.seollal.day",
+      "date": "2022-02-01",
+      "type": "official_leave",
+      "title": "설날",
+      "holidayId": "kr.seollal",
+      "sourceIds": [
+        "kr-moleg-2022"
+      ]
+    },
+    {
+      "id": "kr.2022.seollal.leave-after",
+      "date": "2022-02-02",
+      "type": "official_leave",
+      "title": "설날 연휴",
+      "holidayId": "kr.seollal",
+      "sourceIds": [
+        "kr-moleg-2022"
+      ]
+    },
+    {
+      "id": "kr.2022.presidential-election",
+      "date": "2022-03-09",
+      "type": "official_holiday",
+      "title": "제20대 대통령선거",
+      "holidayId": "kr.election-day",
+      "sourceIds": [
+        "kr-moleg-2022"
+      ]
+    },
+    {
+      "id": "kr.2022.local-election",
+      "date": "2022-06-01",
+      "type": "official_holiday",
+      "title": "제8회 전국동시지방선거",
+      "holidayId": "kr.election-day",
+      "sourceIds": [
+        "kr-moleg-2022"
+      ]
+    },
+    {
+      "id": "kr.2022.chuseok.leave-before",
+      "date": "2022-09-09",
+      "type": "official_leave",
+      "title": "추석 연휴",
+      "holidayId": "kr.chuseok",
+      "sourceIds": [
+        "kr-moleg-2022"
+      ]
+    },
+    {
+      "id": "kr.2022.chuseok.day",
+      "date": "2022-09-10",
+      "type": "official_leave",
+      "title": "추석",
+      "holidayId": "kr.chuseok",
+      "sourceIds": [
+        "kr-moleg-2022"
+      ]
+    },
+    {
+      "id": "kr.2022.chuseok.leave-after",
+      "date": "2022-09-11",
+      "type": "official_leave",
+      "title": "추석 연휴",
+      "holidayId": "kr.chuseok",
+      "sourceIds": [
+        "kr-moleg-2022"
+      ]
+    },
+    {
+      "id": "kr.2022.chuseok.substitute",
+      "date": "2022-09-12",
+      "type": "compensatory_leave",
+      "title": "추석 대체공휴일",
+      "holidayId": "kr.chuseok",
+      "sourceIds": [
+        "kr-moleg-2022"
+      ]
+    },
+    {
+      "id": "kr.2022.hangul-day.substitute",
+      "date": "2022-10-10",
+      "type": "compensatory_leave",
+      "title": "한글날 대체공휴일",
+      "holidayId": "kr.hangul-day",
+      "sourceIds": [
+        "kr-moleg-2022"
+      ]
+    }
+  ]
+}
