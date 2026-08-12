@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "documentType": "holiday_catalog",
+  "jurisdiction": {
+    "country": "JP",
+    "subdivision": null
+  },
+  "kind": "observance",
+  "updatedAt": "2026-08-13T00:00:00Z",
+  "sources": [
+    {
+      "id": "jp-custom",
+      "title": "Japanese Observances",
+      "authority": "Various",
+      "url": "https://en.wikipedia.org/wiki/Public_holidays_in_Japan"
+    }
+  ],
+  "entries": []
+}
