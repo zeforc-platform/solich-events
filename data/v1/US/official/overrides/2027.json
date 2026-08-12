@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "documentType": "official_calendar_overrides",
+  "jurisdiction": {
+    "country": "US",
+    "subdivision": null
+  },
+  "year": 2027,
+  "scheduleScope": "nationwide_statutory",
+  "status": "published",
+  "updatedAt": "2026-08-13T00:00:00Z",
+  "sources": [
+    {
+      "id": "us-opm-2027",
+      "title": "Federal Holidays 2027",
+      "authority": "Office of Personnel Management",
+      "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/",
+      "publishedAt": "2026-01-01"
+    }
+  ],
+  "entries": [
+    {
+      "id": "us.2027.new-years-day",
+      "date": "2027-01-01",
+      "type": "official_holiday",
+      "title": "New Year's Day",
+      "holidayId": "us.new-years-day",
+      "sourceIds": [
+        "us-opm-2027"
+      ]
+    },
+    {
+      "id": "us.2027.mlk-day",
+      "date": "2027-01-18",
+      "type": "official_holiday",
+      "title": "Martin Luther King Jr. Day",
+      "holidayId": "us.mlk-day",
+      "sourceIds": [
+        "us-opm-2027"
+      ]
+    },
+    {
+      "id": "us.2027.washingtons-birthday",
+      "date": "2027-02-15",
+      "type": "official_holiday",
+      "title": "Washington's Birthday",
+      "holidayId": "us.washingtons-birthday",
+      "sourceIds": [
+        "us-opm-2027"
+      ]
+    },
+    {
+      "id": "us.2027.memorial-day",
+      "date": "2027-05-31",
+      "type": "official_holiday",
+      "title": "Memorial Day",
+      "holidayId": "us.memorial-day",
+      "sourceIds": [
+        "us-opm-2027"
+      ]
+    },
+    {
+      "id": "us.2027.juneteenth",
+      "date": "2027-06-19",
+      "type": "official_holiday",
+      "title": "Juneteenth National Independence Day",
+      "holidayId": "us.juneteenth",
+      "sourceIds": [
+        "us-opm-2027"
+      ]
+    },
+    {
+      "id": "us.2027.independence-day",
+      "date": "2027-07-04",
+      "type": "official_holiday",
+      "title": "Independence Day",
+      "holidayId": "us.independence-day",
+      "sourceIds": [
+        "us-opm-2027"
+      ]
+    },
+    {
+      "id": "us.2027.labor-day",
+      "date": "2027-09-06",
+      "type": "official_holiday",
+      "title": "Labor Day",
+      "holidayId": "us.labor-day",
+      "sourceIds": [
+        "us-opm-2027"
+      ]
+    },
+    {
+      "id": "us.2027.columbus-day",
+      "date": "2027-10-11",
+      "type": "official_holiday",
+      "title": "Columbus Day",
+      "holidayId": "us.columbus-day",
+      "sourceIds": [
+        "us-opm-2027"
+      ]
+    },
+    {
+      "id": "us.2027.veterans-day",
+      "date": "2027-11-11",
+      "type": "official_holiday",
+      "title": "Veterans Day",
+      "holidayId": "us.veterans-day",
+      "sourceIds": [
+        "us-opm-2027"
+      ]
+    },
+    {
+      "id": "us.2027.christmas-day",
+      "date": "2027-12-25",
+      "type": "official_holiday",
+      "title": "Christmas Day",
+      "holidayId": "us.christmas-day",
+      "sourceIds": [
+        "us-opm-2027"
+      ]
+    }
+  ]
+}

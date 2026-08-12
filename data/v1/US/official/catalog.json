@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "documentType": "holiday_catalog",
+  "jurisdiction": {
+    "country": "US",
+    "subdivision": null
+  },
+  "kind": "official",
+  "updatedAt": "2026-08-13T00:00:00Z",
+  "sources": [
+    {
+      "id": "us-opm",
+      "title": "Federal Holidays",
+      "authority": "Office of Personnel Management",
+      "url": "https://www.opm.gov/policy-data-oversight/pay-leave/federal-holidays/"
+    }
+  ],
+  "entries": [
+    {
+      "id": "us.new-years-day",
+      "title": "New Year's Day",
+      "icon": "🎆",
+      "categoryId": "le-chinh-thuc",
+      "rule": {
+        "kind": "solar_fixed",
+        "month": 1,
+        "day": 1
+      },
+      "effective": {
+        "fromYear": 1870
+      },
+      "sourceIds": [
+        "us-opm"
+      ],
+      "leavePolicy": {
+        "kind": "same_day"
+      }
+    },
+    {
+      "id": "us.mlk-day",
+      "title": "Martin Luther King Jr. Day",
+      "icon": "🕊️",
+      "categoryId": "le-chinh-thuc",
+      "rule": {
+        "kind": "solar_nth_weekday",
+        "month": 1,
+        "weekday": 1,
+        "occurrence": 3
+      },
+      "effective": {
+        "fromYear": 1986
+      },
+      "sourceIds": [
+        "us-opm"
+      ],
+      "leavePolicy": {
+        "kind": "same_day"
+      }
+    },
+    {
+      "id": "us.washingtons-birthday",
+      "title": "Washington's Birthday",
+      "icon": "🎩",
+      "categoryId": "le-chinh-thuc",
+      "rule": {
+        "kind": "solar_nth_weekday",
+        "month": 2,
+        "weekday": 1,
+        "occurrence": 3
+      },
+      "effective": {
+        "fromYear": 1879
+      },
+      "sourceIds": [
+        "us-opm"
+      ],
+      "leavePolicy": {
+        "kind": "same_day"
+      }
+    },
+    {
+      "id": "us.memorial-day",
+      "title": "Memorial Day",
+      "icon": "🪦",
+      "categoryId": "le-chinh-thuc",
+      "rule": {
+        "kind": "solar_nth_weekday",
+        "month": 5,
+        "weekday": 1,
+        "occurrence": 5
+      },
+      "effective": {
+        "fromYear": 1888
+      },
+      "sourceIds": [
+        "us-opm"
+      ],
+      "leavePolicy": {
+        "kind": "same_day"
+      }
+    },
+    {
+      "id": "us.juneteenth",
+      "title": "Juneteenth National Independence Day",
+      "icon": "✊🏿",
+      "categoryId": "le-chinh-thuc",
+      "rule": {
+        "kind": "solar_fixed",
+        "month": 6,
+        "day": 19
+      },
+      "effective": {
+        "fromYear": 2021
+      },
+      "sourceIds": [
+        "us-opm"
+      ],
+      "leavePolicy": {
+        "kind": "same_day"
+      }
+    },
+    {
+      "id": "us.independence-day",
+      "title": "Independence Day",
+      "icon": "🎇",
+      "categoryId": "le-chinh-thuc",
+      "rule": {
+        "kind": "solar_fixed",
+        "month": 7,
+        "day": 4
+      },
+      "effective": {
+        "fromYear": 1870
+      },
+      "sourceIds": [
+        "us-opm"
+      ],
+      "leavePolicy": {
+        "kind": "same_day"
+      }
+    },
+    {
+      "id": "us.labor-day",
+      "title": "Labor Day",
+      "icon": "🛠️",
+      "categoryId": "le-chinh-thuc",
+      "rule": {
+        "kind": "solar_nth_weekday",
+        "month": 9,
+        "weekday": 1,
+        "occurrence": 1
+      },
+      "effective": {
+        "fromYear": 1894
+      },
+      "sourceIds": [
+        "us-opm"
+      ],
+      "leavePolicy": {
+        "kind": "same_day"
+      }
+    },
+    {
+      "id": "us.columbus-day",
+      "title": "Columbus Day",
+      "icon": "⛵",
+      "categoryId": "le-chinh-thuc",
+      "rule": {
+        "kind": "solar_nth_weekday",
+        "month": 10,
+        "weekday": 1,
+        "occurrence": 2
+      },
+      "effective": {
+        "fromYear": 1937
+      },
+      "sourceIds": [
+        "us-opm"
+      ],
+      "leavePolicy": {
+        "kind": "same_day"
+      }
+    },
+    {
+      "id": "us.veterans-day",
+      "title": "Veterans Day",
+      "icon": "🎖️",
+      "categoryId": "le-chinh-thuc",
+      "rule": {
+        "kind": "solar_fixed",
+        "month": 11,
+        "day": 11
+      },
+      "effective": {
+        "fromYear": 1938
+      },
+      "sourceIds": [
+        "us-opm"
+      ],
+      "leavePolicy": {
+        "kind": "same_day"
+      }
+    },
+    {
+      "id": "us.thanksgiving-day",
+      "title": "Thanksgiving Day",
+      "icon": "🦃",
+      "categoryId": "le-chinh-thuc",
+      "rule": {
+        "kind": "solar_nth_weekday",
+        "month": 11,
+        "weekday": 4,
+        "occurrence": 4
+      },
+      "effective": {
+        "fromYear": 1870
+      },
+      "sourceIds": [
+        "us-opm"
+      ],
+      "leavePolicy": {
+        "kind": "same_day"
+      }
+    },
+    {
+      "id": "us.christmas-day",
+      "title": "Christmas Day",
+      "icon": "🎄",
+      "categoryId": "le-chinh-thuc",
+      "rule": {
+        "kind": "solar_fixed",
+        "month": 12,
+        "day": 25
+      },
+      "effective": {
+        "fromYear": 1870
+      },
+      "sourceIds": [
+        "us-opm"
+      ],
+      "leavePolicy": {
+        "kind": "same_day"
+      }
+    },
+    {
+      "id": "us.substitute-holiday",
+      "title": "Observed Holiday",
+      "icon": "🗓️",
+      "categoryId": "le-chinh-thuc",
+      "rule": {
+        "kind": "solar_fixed",
+        "month": 1,
+        "day": 1
+      },
+      "effective": {
+        "fromYear": 1870
+      },
+      "sourceIds": [
+        "us-opm"
+      ],
+      "leavePolicy": {
+        "kind": "same_day"
+      }
+    }
+  ]
+}

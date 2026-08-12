@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "documentType": "holiday_catalog",
+  "jurisdiction": {
+    "country": "US",
+    "subdivision": null
+  },
+  "kind": "observance",
+  "updatedAt": "2026-08-13T00:00:00Z",
+  "sources": [
+    {
+      "id": "us-various-observances",
+      "title": "US Observances",
+      "authority": "Various",
+      "url": "https://en.wikipedia.org/wiki/Public_holidays_in_the_United_States"
+    }
+  ],
+  "entries": []
+}
