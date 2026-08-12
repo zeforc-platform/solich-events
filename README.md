@@ -13,6 +13,8 @@ mã ISO 3166-2, ví dụ `data/v1/US/subdivisions/US-CA/`.
 - `observances/catalog.json`: ngày kỷ niệm, không mặc định là ngày nghỉ.
 - `official/overrides/<year>.json`: lịch nghỉ thực tế, nghỉ bù và làm bù được
   công bố theo từng năm.
+- `international/observances/catalog.json`: các observance dùng chung; mỗi mục
+  khai báo `applicability` để chỉ hiện với quốc gia phù hợp.
 
 Xem [data model](docs/data-model.md) để biết cách gộp ba lớp dữ liệu, và
 [source policy](docs/sources.md) về điều kiện phát hành dữ liệu official.
