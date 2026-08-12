@@ -25,9 +25,7 @@
       "type": "official_leave",
       "title": "Nghỉ hoán đổi Tết Dương lịch",
       "holidayId": "vn.new-years-day",
-      "sourceIds": [
-        "vn-molisa-4724-2014"
-      ]
+      "sourceIds": ["vn-molisa-4724-2014"]
     },
     {
       "id": "vn.2015.new-years-day.exchange-workday",
@@ -35,9 +33,7 @@
       "type": "compensatory_workday",
       "title": "Làm bù Tết Dương lịch",
       "holidayId": "vn.new-years-day",
-      "sourceIds": [
-        "vn-molisa-4724-2014"
-      ]
+      "sourceIds": ["vn-molisa-4724-2014"]
     },
     {
       "id": "vn.2015.lunar-new-year.exchange-leave",
@@ -45,9 +41,7 @@
       "type": "official_leave",
       "title": "Nghỉ hoán đổi Tết Nguyên Đán",
       "holidayId": "vn.lunar-new-year",
-      "sourceIds": [
-        "vn-molisa-4724-2014"
-      ]
+      "sourceIds": ["vn-molisa-4724-2014"]
     },
     {
       "id": "vn.2015.lunar-new-year.exchange-workday",
@@ -55,9 +49,7 @@
       "type": "compensatory_workday",
       "title": "Làm bù Tết Nguyên Đán",
       "holidayId": "vn.lunar-new-year",
-      "sourceIds": [
-        "vn-molisa-4724-2014"
-      ]
+      "sourceIds": ["vn-molisa-4724-2014"]
     },
     {
       "id": "vn.2015.lunar-new-year.leave-1",
@@ -65,9 +57,7 @@
       "type": "official_leave",
       "title": "Nghỉ Tết Nguyên Đán",
       "holidayId": "vn.lunar-new-year",
-      "sourceIds": [
-        "vn-molisa-4724-2014"
-      ]
+      "sourceIds": ["vn-molisa-4724-2014"]
     },
     {
       "id": "vn.2015.lunar-new-year.leave-2",
@@ -75,9 +65,7 @@
       "type": "official_leave",
       "title": "Nghỉ Tết Nguyên Đán",
       "holidayId": "vn.lunar-new-year",
-      "sourceIds": [
-        "vn-molisa-4724-2014"
-      ]
+      "sourceIds": ["vn-molisa-4724-2014"]
     },
     {
       "id": "vn.2015.lunar-new-year.leave-3",
@@ -85,9 +73,7 @@
       "type": "official_leave",
       "title": "Nghỉ Tết Nguyên Đán",
       "holidayId": "vn.lunar-new-year",
-      "sourceIds": [
-        "vn-molisa-4724-2014"
-      ]
+      "sourceIds": ["vn-molisa-4724-2014"]
     },
     {
       "id": "vn.2015.lunar-new-year.leave-4",
@@ -95,9 +81,7 @@
       "type": "official_leave",
       "title": "Nghỉ Tết Nguyên Đán",
       "holidayId": "vn.lunar-new-year",
-      "sourceIds": [
-        "vn-molisa-4724-2014"
-      ]
+      "sourceIds": ["vn-molisa-4724-2014"]
     },
     {
       "id": "vn.2015.lunar-new-year.leave-5",
@@ -105,9 +89,7 @@
       "type": "official_leave",
       "title": "Nghỉ Tết Nguyên Đán",
       "holidayId": "vn.lunar-new-year",
-      "sourceIds": [
-        "vn-molisa-4724-2014"
-      ]
+      "sourceIds": ["vn-molisa-4724-2014"]
     },
     {
       "id": "vn.2015.lunar-new-year.compensatory-leave",
@@ -115,9 +97,7 @@
       "type": "compensatory_leave",
       "title": "Nghỉ bù Tết Nguyên Đán",
       "holidayId": "vn.lunar-new-year",
-      "sourceIds": [
-        "vn-molisa-4724-2014"
-      ]
+      "sourceIds": ["vn-molisa-4724-2014"]
     },
     {
       "id": "vn.2015.hung-kings.exchange-leave",
@@ -125,9 +105,7 @@
       "type": "official_leave",
       "title": "Nghỉ hoán đổi dịp lễ 30/4",
       "holidayId": "vn.reunification-day",
-      "sourceIds": [
-        "vn-molisa-4724-2014"
-      ]
+      "sourceIds": ["vn-molisa-4724-2014"]
     },
     {
       "id": "vn.2015.hung-kings.exchange-workday",
@@ -135,9 +113,7 @@
       "type": "compensatory_workday",
       "title": "Làm bù dịp lễ 30/4",
       "holidayId": "vn.reunification-day",
-      "sourceIds": [
-        "vn-molisa-4724-2014"
-      ]
+      "sourceIds": ["vn-molisa-4724-2014"]
     }
   ]
 }

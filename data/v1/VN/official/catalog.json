@@ -46,7 +46,12 @@
       "title": "Tết Nguyên Đán",
       "icon": "🧧",
       "categoryId": "le-chinh-thuc",
-      "rule": { "kind": "lunar_fixed", "month": 1, "day": 1, "leapMonth": false },
+      "rule": {
+        "kind": "lunar_fixed",
+        "month": 1,
+        "day": 1,
+        "leapMonth": false
+      },
       "effective": { "fromYear": 2013 },
       "sourceIds": ["vn-labour-code-2012", "vn-labour-code-2019"],
       "leavePolicy": { "kind": "annual_schedule_required", "statutoryDays": 5 }
@@ -56,7 +61,12 @@
       "title": "Giỗ Tổ Hùng Vương",
       "icon": "🏯",
       "categoryId": "le-chinh-thuc",
-      "rule": { "kind": "lunar_fixed", "month": 3, "day": 10, "leapMonth": false },
+      "rule": {
+        "kind": "lunar_fixed",
+        "month": 3,
+        "day": 10,
+        "leapMonth": false
+      },
       "effective": { "fromYear": 2013 },
       "sourceIds": ["vn-labour-code-2012", "vn-labour-code-2019"],
       "leavePolicy": { "kind": "same_day" }

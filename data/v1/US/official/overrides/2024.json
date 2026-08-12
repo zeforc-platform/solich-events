@@ -25,9 +25,7 @@
       "type": "official_holiday",
       "title": "New Year's Day",
       "holidayId": "us.new-years-day",
-      "sourceIds": [
-        "us-opm-2024"
-      ]
+      "sourceIds": ["us-opm-2024"]
     },
     {
       "id": "us.2024.mlk-day",
@@ -35,9 +33,7 @@
       "type": "official_holiday",
       "title": "Martin Luther King Jr. Day",
       "holidayId": "us.mlk-day",
-      "sourceIds": [
-        "us-opm-2024"
-      ]
+      "sourceIds": ["us-opm-2024"]
     },
     {
       "id": "us.2024.washingtons-birthday",
@@ -45,9 +41,7 @@
       "type": "official_holiday",
       "title": "Washington's Birthday",
       "holidayId": "us.washingtons-birthday",
-      "sourceIds": [
-        "us-opm-2024"
-      ]
+      "sourceIds": ["us-opm-2024"]
     },
     {
       "id": "us.2024.memorial-day",
@@ -55,9 +49,7 @@
       "type": "official_holiday",
       "title": "Memorial Day",
       "holidayId": "us.memorial-day",
-      "sourceIds": [
-        "us-opm-2024"
-      ]
+      "sourceIds": ["us-opm-2024"]
     },
     {
       "id": "us.2024.juneteenth",
@@ -65,9 +57,7 @@
       "type": "official_holiday",
       "title": "Juneteenth National Independence Day",
       "holidayId": "us.juneteenth",
-      "sourceIds": [
-        "us-opm-2024"
-      ]
+      "sourceIds": ["us-opm-2024"]
     },
     {
       "id": "us.2024.independence-day",
@@ -75,9 +65,7 @@
       "type": "official_holiday",
       "title": "Independence Day",
       "holidayId": "us.independence-day",
-      "sourceIds": [
-        "us-opm-2024"
-      ]
+      "sourceIds": ["us-opm-2024"]
     },
     {
       "id": "us.2024.labor-day",
@@ -85,9 +73,7 @@
       "type": "official_holiday",
       "title": "Labor Day",
       "holidayId": "us.labor-day",
-      "sourceIds": [
-        "us-opm-2024"
-      ]
+      "sourceIds": ["us-opm-2024"]
     },
     {
       "id": "us.2024.columbus-day",
@@ -95,9 +81,7 @@
       "type": "official_holiday",
       "title": "Columbus Day",
       "holidayId": "us.columbus-day",
-      "sourceIds": [
-        "us-opm-2024"
-      ]
+      "sourceIds": ["us-opm-2024"]
     },
     {
       "id": "us.2024.veterans-day",
@@ -105,9 +89,7 @@
       "type": "official_holiday",
       "title": "Veterans Day",
       "holidayId": "us.veterans-day",
-      "sourceIds": [
-        "us-opm-2024"
-      ]
+      "sourceIds": ["us-opm-2024"]
     },
     {
       "id": "us.2024.christmas-day",
@@ -115,9 +97,7 @@
       "type": "official_holiday",
       "title": "Christmas Day",
       "holidayId": "us.christmas-day",
-      "sourceIds": [
-        "us-opm-2024"
-      ]
+      "sourceIds": ["us-opm-2024"]
     }
   ]
 }

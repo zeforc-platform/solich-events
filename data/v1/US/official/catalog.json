@@ -29,9 +29,7 @@
       "effective": {
         "fromYear": 1870
       },
-      "sourceIds": [
-        "us-opm"
-      ],
+      "sourceIds": ["us-opm"],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -50,9 +48,7 @@
       "effective": {
         "fromYear": 1986
       },
-      "sourceIds": [
-        "us-opm"
-      ],
+      "sourceIds": ["us-opm"],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -71,9 +67,7 @@
       "effective": {
         "fromYear": 1879
       },
-      "sourceIds": [
-        "us-opm"
-      ],
+      "sourceIds": ["us-opm"],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -92,9 +86,7 @@
       "effective": {
         "fromYear": 1888
       },
-      "sourceIds": [
-        "us-opm"
-      ],
+      "sourceIds": ["us-opm"],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -112,9 +104,7 @@
       "effective": {
         "fromYear": 2021
       },
-      "sourceIds": [
-        "us-opm"
-      ],
+      "sourceIds": ["us-opm"],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -132,9 +122,7 @@
       "effective": {
         "fromYear": 1870
       },
-      "sourceIds": [
-        "us-opm"
-      ],
+      "sourceIds": ["us-opm"],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -153,9 +141,7 @@
       "effective": {
         "fromYear": 1894
       },
-      "sourceIds": [
-        "us-opm"
-      ],
+      "sourceIds": ["us-opm"],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -174,9 +160,7 @@
       "effective": {
         "fromYear": 1937
       },
-      "sourceIds": [
-        "us-opm"
-      ],
+      "sourceIds": ["us-opm"],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -194,9 +178,7 @@
       "effective": {
         "fromYear": 1938
       },
-      "sourceIds": [
-        "us-opm"
-      ],
+      "sourceIds": ["us-opm"],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -215,9 +197,7 @@
       "effective": {
         "fromYear": 1870
       },
-      "sourceIds": [
-        "us-opm"
-      ],
+      "sourceIds": ["us-opm"],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -235,9 +215,7 @@
       "effective": {
         "fromYear": 1870
       },
-      "sourceIds": [
-        "us-opm"
-      ],
+      "sourceIds": ["us-opm"],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -255,9 +233,7 @@
       "effective": {
         "fromYear": 1870
       },
-      "sourceIds": [
-        "us-opm"
-      ],
+      "sourceIds": ["us-opm"],
       "leavePolicy": {
         "kind": "same_day"
       }

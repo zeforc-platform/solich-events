@@ -31,7 +31,12 @@
       "title": "설날",
       "icon": "🧧",
       "categoryId": "le-chinh-thuc",
-      "rule": { "kind": "lunar_fixed", "month": 1, "day": 1, "leapMonth": false },
+      "rule": {
+        "kind": "lunar_fixed",
+        "month": 1,
+        "day": 1,
+        "leapMonth": false
+      },
       "effective": { "fromYear": 1989 },
       "sourceIds": ["kr-public-holidays-act"],
       "leavePolicy": { "kind": "annual_schedule_required", "statutoryDays": 3 }
@@ -61,7 +66,12 @@
       "title": "부처님오신날",
       "icon": "🪷",
       "categoryId": "le-chinh-thuc",
-      "rule": { "kind": "lunar_fixed", "month": 4, "day": 8, "leapMonth": false },
+      "rule": {
+        "kind": "lunar_fixed",
+        "month": 4,
+        "day": 8,
+        "leapMonth": false
+      },
       "effective": { "fromYear": 1975 },
       "sourceIds": ["kr-public-holidays-act"],
       "leavePolicy": { "kind": "same_day" }
@@ -101,7 +111,12 @@
       "title": "추석",
       "icon": "🌕",
       "categoryId": "le-chinh-thuc",
-      "rule": { "kind": "lunar_fixed", "month": 8, "day": 15, "leapMonth": false },
+      "rule": {
+        "kind": "lunar_fixed",
+        "month": 8,
+        "day": 15,
+        "leapMonth": false
+      },
       "effective": { "fromYear": 1949 },
       "sourceIds": ["kr-public-holidays-act"],
       "leavePolicy": { "kind": "annual_schedule_required", "statutoryDays": 3 }
