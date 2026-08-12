@@ -34,6 +34,12 @@ without confusing a remembrance day with a public holiday. The v1 values are
 The shared catalogue additionally uses `religious_observance` and
 `social_cultural_observance` for modern or non-traditional observances.
 
+Religious observances may additionally declare `religiousTraditions`. This is
+an optional, multi-value classification (for example `buddhist` or
+`["catholic", "christian"]`) used exclusively by local display preferences.
+It must not be attached to official public holidays: a user filtering personal
+religious observances must still see the statutory calendar.
+
 ## Official override event types
 
 - `official_holiday`: an explicit statutory holiday date when an annual notice

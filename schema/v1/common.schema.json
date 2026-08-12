@@ -37,6 +37,19 @@
         "international_observance"
       ]
     },
+    "religiousTradition": {
+      "enum": [
+        "buddhist",
+        "catholic",
+        "christian",
+        "folk_religion",
+        "hindu",
+        "islamic",
+        "jewish",
+        "shinto",
+        "sikh"
+      ]
+    },
     "applicability": {
       "oneOf": [
         {
