@@ -25,9 +25,7 @@
       "type": "official_leave",
       "title": "설날 연휴",
       "holidayId": "kr.seollal",
-      "sourceIds": [
-        "kr-moleg-2027"
-      ]
+      "sourceIds": ["kr-moleg-2027"]
     },
     {
       "id": "kr.2027.seollal.day",
@@ -35,9 +33,7 @@
       "type": "official_leave",
       "title": "설날",
       "holidayId": "kr.seollal",
-      "sourceIds": [
-        "kr-moleg-2027"
-      ]
+      "sourceIds": ["kr-moleg-2027"]
     },
     {
       "id": "kr.2027.seollal.leave-after",
@@ -45,9 +41,7 @@
       "type": "official_leave",
       "title": "설날 연휴",
       "holidayId": "kr.seollal",
-      "sourceIds": [
-        "kr-moleg-2027"
-      ]
+      "sourceIds": ["kr-moleg-2027"]
     },
     {
       "id": "kr.2027.seollal.substitute",
@@ -55,9 +49,7 @@
       "type": "compensatory_leave",
       "title": "설날 대체공휴일",
       "holidayId": "kr.seollal",
-      "sourceIds": [
-        "kr-moleg-2027"
-      ]
+      "sourceIds": ["kr-moleg-2027"]
     },
     {
       "id": "kr.2027.presidential-election",
@@ -65,9 +57,7 @@
       "type": "official_holiday",
       "title": "제21대 대통령선거",
       "holidayId": "kr.election-day",
-      "sourceIds": [
-        "kr-moleg-2027"
-      ]
+      "sourceIds": ["kr-moleg-2027"]
     },
     {
       "id": "kr.2027.liberation-day.substitute",
@@ -75,9 +65,7 @@
       "type": "compensatory_leave",
       "title": "광복절 대체공휴일",
       "holidayId": "kr.liberation-day",
-      "sourceIds": [
-        "kr-moleg-2027"
-      ]
+      "sourceIds": ["kr-moleg-2027"]
     },
     {
       "id": "kr.2027.chuseok.leave-before",
@@ -85,9 +73,7 @@
       "type": "official_leave",
       "title": "추석 연휴",
       "holidayId": "kr.chuseok",
-      "sourceIds": [
-        "kr-moleg-2027"
-      ]
+      "sourceIds": ["kr-moleg-2027"]
     },
     {
       "id": "kr.2027.chuseok.day",
@@ -95,9 +81,7 @@
       "type": "official_leave",
       "title": "추석",
       "holidayId": "kr.chuseok",
-      "sourceIds": [
-        "kr-moleg-2027"
-      ]
+      "sourceIds": ["kr-moleg-2027"]
     },
     {
       "id": "kr.2027.chuseok.leave-after",
@@ -105,9 +89,7 @@
       "type": "official_leave",
       "title": "추석 연휴",
       "holidayId": "kr.chuseok",
-      "sourceIds": [
-        "kr-moleg-2027"
-      ]
+      "sourceIds": ["kr-moleg-2027"]
     },
     {
       "id": "kr.2027.national-foundation-day.substitute",
@@ -115,9 +97,7 @@
       "type": "compensatory_leave",
       "title": "개천절 대체공휴일",
       "holidayId": "kr.national-foundation-day",
-      "sourceIds": [
-        "kr-moleg-2027"
-      ]
+      "sourceIds": ["kr-moleg-2027"]
     },
     {
       "id": "kr.2027.hangul-day.substitute",
@@ -125,9 +105,7 @@
       "type": "compensatory_leave",
       "title": "한글날 대체공휴일",
       "holidayId": "kr.hangul-day",
-      "sourceIds": [
-        "kr-moleg-2027"
-      ]
+      "sourceIds": ["kr-moleg-2027"]
     },
     {
       "id": "kr.2027.christmas.substitute",
@@ -135,9 +113,7 @@
       "type": "compensatory_leave",
       "title": "기독탄신일 대체공휴일",
       "holidayId": "kr.christmas",
-      "sourceIds": [
-        "kr-moleg-2027"
-      ]
+      "sourceIds": ["kr-moleg-2027"]
     }
   ]
 }

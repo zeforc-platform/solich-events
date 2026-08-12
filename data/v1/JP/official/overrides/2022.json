@@ -25,9 +25,7 @@
       "type": "official_holiday",
       "title": "元日",
       "holidayId": "jp.new-years-day",
-      "sourceIds": [
-        "jp-cabinet-2022"
-      ]
+      "sourceIds": ["jp-cabinet-2022"]
     },
     {
       "id": "jp.2022.coming-of-age-day",
@@ -35,9 +33,7 @@
       "type": "official_holiday",
       "title": "成人の日",
       "holidayId": "jp.coming-of-age-day",
-      "sourceIds": [
-        "jp-cabinet-2022"
-      ]
+      "sourceIds": ["jp-cabinet-2022"]
     },
     {
       "id": "jp.2022.foundation-day",
@@ -45,9 +41,7 @@
       "type": "official_holiday",
       "title": "建国記念の日",
       "holidayId": "jp.foundation-day",
-      "sourceIds": [
-        "jp-cabinet-2022"
-      ]
+      "sourceIds": ["jp-cabinet-2022"]
     },
     {
       "id": "jp.2022.emperors-birthday",
@@ -55,9 +49,7 @@
       "type": "official_holiday",
       "title": "天皇誕生日",
       "holidayId": "jp.emperors-birthday",
-      "sourceIds": [
-        "jp-cabinet-2022"
-      ]
+      "sourceIds": ["jp-cabinet-2022"]
     },
     {
       "id": "jp.2022.vernal-equinox",
@@ -65,9 +57,7 @@
       "type": "official_holiday",
       "title": "春分の日",
       "holidayId": "jp.vernal-equinox",
-      "sourceIds": [
-        "jp-cabinet-2022"
-      ]
+      "sourceIds": ["jp-cabinet-2022"]
     },
     {
       "id": "jp.2022.showa-day",
@@ -75,9 +65,7 @@
       "type": "official_holiday",
       "title": "昭和の日",
       "holidayId": "jp.showa-day",
-      "sourceIds": [
-        "jp-cabinet-2022"
-      ]
+      "sourceIds": ["jp-cabinet-2022"]
     },
     {
       "id": "jp.2022.constitution-day",
@@ -85,9 +73,7 @@
       "type": "official_holiday",
       "title": "憲法記念日",
       "holidayId": "jp.constitution-day",
-      "sourceIds": [
-        "jp-cabinet-2022"
-      ]
+      "sourceIds": ["jp-cabinet-2022"]
     },
     {
       "id": "jp.2022.greenery-day",
@@ -95,9 +81,7 @@
       "type": "official_holiday",
       "title": "みどりの日",
       "holidayId": "jp.greenery-day",
-      "sourceIds": [
-        "jp-cabinet-2022"
-      ]
+      "sourceIds": ["jp-cabinet-2022"]
     },
     {
       "id": "jp.2022.childrens-day",
@@ -105,9 +89,7 @@
       "type": "official_holiday",
       "title": "こどもの日",
       "holidayId": "jp.childrens-day",
-      "sourceIds": [
-        "jp-cabinet-2022"
-      ]
+      "sourceIds": ["jp-cabinet-2022"]
     },
     {
       "id": "jp.2022.marine-day",
@@ -115,9 +97,7 @@
       "type": "official_holiday",
       "title": "海の日",
       "holidayId": "jp.marine-day",
-      "sourceIds": [
-        "jp-cabinet-2022"
-      ]
+      "sourceIds": ["jp-cabinet-2022"]
     },
     {
       "id": "jp.2022.mountain-day",
@@ -125,9 +105,7 @@
       "type": "official_holiday",
       "title": "山の日",
       "holidayId": "jp.mountain-day",
-      "sourceIds": [
-        "jp-cabinet-2022"
-      ]
+      "sourceIds": ["jp-cabinet-2022"]
     },
     {
       "id": "jp.2022.respect-for-the-aged-day",
@@ -135,9 +113,7 @@
       "type": "official_holiday",
       "title": "敬老の日",
       "holidayId": "jp.respect-for-the-aged-day",
-      "sourceIds": [
-        "jp-cabinet-2022"
-      ]
+      "sourceIds": ["jp-cabinet-2022"]
     },
     {
       "id": "jp.2022.autumnal-equinox",
@@ -145,9 +121,7 @@
       "type": "official_holiday",
       "title": "秋分の日",
       "holidayId": "jp.autumnal-equinox",
-      "sourceIds": [
-        "jp-cabinet-2022"
-      ]
+      "sourceIds": ["jp-cabinet-2022"]
     },
     {
       "id": "jp.2022.sports-day",
@@ -155,9 +129,7 @@
       "type": "official_holiday",
       "title": "スポーツの日",
       "holidayId": "jp.sports-day",
-      "sourceIds": [
-        "jp-cabinet-2022"
-      ]
+      "sourceIds": ["jp-cabinet-2022"]
     },
     {
       "id": "jp.2022.culture-day",
@@ -165,9 +137,7 @@
       "type": "official_holiday",
       "title": "文化の日",
       "holidayId": "jp.culture-day",
-      "sourceIds": [
-        "jp-cabinet-2022"
-      ]
+      "sourceIds": ["jp-cabinet-2022"]
     },
     {
       "id": "jp.2022.labor-thanksgiving-day",
@@ -175,9 +145,7 @@
       "type": "official_holiday",
       "title": "勤労感謝の日",
       "holidayId": "jp.labor-thanksgiving-day",
-      "sourceIds": [
-        "jp-cabinet-2022"
-      ]
+      "sourceIds": ["jp-cabinet-2022"]
     }
   ]
 }

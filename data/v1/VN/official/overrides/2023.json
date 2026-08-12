@@ -7,20 +7,109 @@
   "status": "published",
   "updatedAt": "2026-08-13T00:00:00Z",
   "sources": [
-    { "id": "vn-government-2023-holidays", "title": "Government decision on public holidays in 2023", "authority": "Government of Viet Nam", "url": "https://en.baochinhphu.vn/govt-decides-length-of-public-holidays-in-2023-11122120113501236.htm", "publishedAt": "2022-12-01" },
-    { "id": "vn-labour-code-2019", "title": "Bộ luật Lao động số 45/2019/QH14", "authority": "Quốc hội", "url": "https://vanban.chinhphu.vn/?classid=1&docid=198540&pageid=27160&typegroupid=3", "publishedAt": "2019-11-20" }
+    {
+      "id": "vn-government-2023-holidays",
+      "title": "Government decision on public holidays in 2023",
+      "authority": "Government of Viet Nam",
+      "url": "https://en.baochinhphu.vn/govt-decides-length-of-public-holidays-in-2023-11122120113501236.htm",
+      "publishedAt": "2022-12-01"
+    },
+    {
+      "id": "vn-labour-code-2019",
+      "title": "Bộ luật Lao động số 45/2019/QH14",
+      "authority": "Quốc hội",
+      "url": "https://vanban.chinhphu.vn/?classid=1&docid=198540&pageid=27160&typegroupid=3",
+      "publishedAt": "2019-11-20"
+    }
   ],
   "entries": [
-    { "id": "vn.2023.new-years-day.compensatory-leave", "date": "2023-01-02", "type": "compensatory_leave", "title": "Nghỉ bù Tết Dương lịch", "holidayId": "vn.new-years-day", "sourceIds": ["vn-labour-code-2019"] },
-    { "id": "vn.2023.lunar-new-year.leave-before-2", "date": "2023-01-20", "type": "official_leave", "title": "Nghỉ Tết Nguyên Đán", "holidayId": "vn.lunar-new-year", "sourceIds": ["vn-government-2023-holidays"] },
-    { "id": "vn.2023.lunar-new-year.leave-before-1", "date": "2023-01-21", "type": "official_leave", "title": "Nghỉ Tết Nguyên Đán", "holidayId": "vn.lunar-new-year", "sourceIds": ["vn-government-2023-holidays"] },
-    { "id": "vn.2023.lunar-new-year.leave-after-1", "date": "2023-01-23", "type": "official_leave", "title": "Nghỉ Tết Nguyên Đán", "holidayId": "vn.lunar-new-year", "sourceIds": ["vn-government-2023-holidays"] },
-    { "id": "vn.2023.lunar-new-year.leave-after-2", "date": "2023-01-24", "type": "official_leave", "title": "Nghỉ Tết Nguyên Đán", "holidayId": "vn.lunar-new-year", "sourceIds": ["vn-government-2023-holidays"] },
-    { "id": "vn.2023.lunar-new-year.compensatory-leave-1", "date": "2023-01-25", "type": "compensatory_leave", "title": "Nghỉ bù Tết Nguyên Đán", "holidayId": "vn.lunar-new-year", "sourceIds": ["vn-government-2023-holidays"] },
-    { "id": "vn.2023.lunar-new-year.compensatory-leave-2", "date": "2023-01-26", "type": "compensatory_leave", "title": "Nghỉ bù Tết Nguyên Đán", "holidayId": "vn.lunar-new-year", "sourceIds": ["vn-government-2023-holidays"] },
-    { "id": "vn.2023.hung-kings-commemoration.compensatory-leave", "date": "2023-05-02", "type": "compensatory_leave", "title": "Nghỉ bù Giỗ Tổ Hùng Vương", "holidayId": "vn.hung-kings-commemoration", "sourceIds": ["vn-labour-code-2019"] },
-    { "id": "vn.2023.reunification-day.compensatory-leave", "date": "2023-05-03", "type": "compensatory_leave", "title": "Nghỉ bù Ngày Thống nhất đất nước", "holidayId": "vn.reunification-day", "sourceIds": ["vn-labour-code-2019"] },
-    { "id": "vn.2023.national-day.additional-statutory-leave", "date": "2023-09-01", "type": "official_leave", "title": "Nghỉ lễ Quốc khánh", "holidayId": "vn.national-day", "sourceIds": ["vn-government-2023-holidays"] },
-    { "id": "vn.2023.national-day.compensatory-leave", "date": "2023-09-04", "type": "compensatory_leave", "title": "Nghỉ bù Quốc khánh", "holidayId": "vn.national-day", "sourceIds": ["vn-government-2023-holidays"] }
+    {
+      "id": "vn.2023.new-years-day.compensatory-leave",
+      "date": "2023-01-02",
+      "type": "compensatory_leave",
+      "title": "Nghỉ bù Tết Dương lịch",
+      "holidayId": "vn.new-years-day",
+      "sourceIds": ["vn-labour-code-2019"]
+    },
+    {
+      "id": "vn.2023.lunar-new-year.leave-before-2",
+      "date": "2023-01-20",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-government-2023-holidays"]
+    },
+    {
+      "id": "vn.2023.lunar-new-year.leave-before-1",
+      "date": "2023-01-21",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-government-2023-holidays"]
+    },
+    {
+      "id": "vn.2023.lunar-new-year.leave-after-1",
+      "date": "2023-01-23",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-government-2023-holidays"]
+    },
+    {
+      "id": "vn.2023.lunar-new-year.leave-after-2",
+      "date": "2023-01-24",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-government-2023-holidays"]
+    },
+    {
+      "id": "vn.2023.lunar-new-year.compensatory-leave-1",
+      "date": "2023-01-25",
+      "type": "compensatory_leave",
+      "title": "Nghỉ bù Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-government-2023-holidays"]
+    },
+    {
+      "id": "vn.2023.lunar-new-year.compensatory-leave-2",
+      "date": "2023-01-26",
+      "type": "compensatory_leave",
+      "title": "Nghỉ bù Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-government-2023-holidays"]
+    },
+    {
+      "id": "vn.2023.hung-kings-commemoration.compensatory-leave",
+      "date": "2023-05-02",
+      "type": "compensatory_leave",
+      "title": "Nghỉ bù Giỗ Tổ Hùng Vương",
+      "holidayId": "vn.hung-kings-commemoration",
+      "sourceIds": ["vn-labour-code-2019"]
+    },
+    {
+      "id": "vn.2023.reunification-day.compensatory-leave",
+      "date": "2023-05-03",
+      "type": "compensatory_leave",
+      "title": "Nghỉ bù Ngày Thống nhất đất nước",
+      "holidayId": "vn.reunification-day",
+      "sourceIds": ["vn-labour-code-2019"]
+    },
+    {
+      "id": "vn.2023.national-day.additional-statutory-leave",
+      "date": "2023-09-01",
+      "type": "official_leave",
+      "title": "Nghỉ lễ Quốc khánh",
+      "holidayId": "vn.national-day",
+      "sourceIds": ["vn-government-2023-holidays"]
+    },
+    {
+      "id": "vn.2023.national-day.compensatory-leave",
+      "date": "2023-09-04",
+      "type": "compensatory_leave",
+      "title": "Nghỉ bù Quốc khánh",
+      "holidayId": "vn.national-day",
+      "sourceIds": ["vn-government-2023-holidays"]
+    }
   ]
 }
