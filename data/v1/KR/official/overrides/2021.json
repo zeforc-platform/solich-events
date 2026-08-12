@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "documentType": "official_calendar_overrides",
+  "jurisdiction": {
+    "country": "KR",
+    "subdivision": null
+  },
+  "year": 2021,
+  "scheduleScope": "nationwide_statutory",
+  "status": "published",
+  "updatedAt": "2026-08-13T00:00:00Z",
+  "sources": [
+    {
+      "id": "kr-moleg-2021",
+      "title": "2021년 관공서의 공휴일",
+      "authority": "인사혁신처",
+      "url": "https://www.mpm.go.kr/",
+      "publishedAt": "2020-06-01"
+    }
+  ],
+  "entries": [
+    {
+      "id": "kr.2021.seollal.leave-before",
+      "date": "2021-02-11",
+      "type": "official_leave",
+      "title": "설날 연휴",
+      "holidayId": "kr.seollal",
+      "sourceIds": [
+        "kr-moleg-2021"
+      ]
+    },
+    {
+      "id": "kr.2021.seollal.day",
+      "date": "2021-02-12",
+      "type": "official_leave",
+      "title": "설날",
+      "holidayId": "kr.seollal",
+      "sourceIds": [
+        "kr-moleg-2021"
+      ]
+    },
+    {
+      "id": "kr.2021.seollal.leave-after",
+      "date": "2021-02-13",
+      "type": "official_leave",
+      "title": "설날 연휴",
+      "holidayId": "kr.seollal",
+      "sourceIds": [
+        "kr-moleg-2021"
+      ]
+    },
+    {
+      "id": "kr.2021.liberation-day.substitute",
+      "date": "2021-08-16",
+      "type": "compensatory_leave",
+      "title": "광복절 대체공휴일",
+      "holidayId": "kr.liberation-day",
+      "sourceIds": [
+        "kr-moleg-2021"
+      ]
+    },
+    {
+      "id": "kr.2021.chuseok.leave-before",
+      "date": "2021-09-20",
+      "type": "official_leave",
+      "title": "추석 연휴",
+      "holidayId": "kr.chuseok",
+      "sourceIds": [
+        "kr-moleg-2021"
+      ]
+    },
+    {
+      "id": "kr.2021.chuseok.day",
+      "date": "2021-09-21",
+      "type": "official_leave",
+      "title": "추석",
+      "holidayId": "kr.chuseok",
+      "sourceIds": [
+        "kr-moleg-2021"
+      ]
+    },
+    {
+      "id": "kr.2021.chuseok.leave-after",
+      "date": "2021-09-22",
+      "type": "official_leave",
+      "title": "추석 연휴",
+      "holidayId": "kr.chuseok",
+      "sourceIds": [
+        "kr-moleg-2021"
+      ]
+    },
+    {
+      "id": "kr.2021.national-foundation-day.substitute",
+      "date": "2021-10-04",
+      "type": "compensatory_leave",
+      "title": "개천절 대체공휴일",
+      "holidayId": "kr.national-foundation-day",
+      "sourceIds": [
+        "kr-moleg-2021"
+      ]
+    },
+    {
+      "id": "kr.2021.hangul-day.substitute",
+      "date": "2021-10-11",
+      "type": "compensatory_leave",
+      "title": "한글날 대체공휴일",
+      "holidayId": "kr.hangul-day",
+      "sourceIds": [
+        "kr-moleg-2021"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 1,
+  "documentType": "official_calendar_overrides",
+  "jurisdiction": {
+    "country": "KR",
+    "subdivision": null
+  },
+  "year": 2027,
+  "scheduleScope": "nationwide_statutory",
+  "status": "published",
+  "updatedAt": "2026-08-13T00:00:00Z",
+  "sources": [
+    {
+      "id": "kr-moleg-2027",
+      "title": "2027년 관공서의 공휴일",
+      "authority": "인사혁신처",
+      "url": "https://www.mpm.go.kr/",
+      "publishedAt": "2026-06-01"
+    }
+  ],
+  "entries": [
+    {
+      "id": "kr.2027.seollal.leave-before",
+      "date": "2027-02-06",
+      "type": "official_leave",
+      "title": "설날 연휴",
+      "holidayId": "kr.seollal",
+      "sourceIds": [
+        "kr-moleg-2027"
+      ]
+    },
+    {
+      "id": "kr.2027.seollal.day",
+      "date": "2027-02-07",
+      "type": "official_leave",
+      "title": "설날",
+      "holidayId": "kr.seollal",
+      "sourceIds": [
+        "kr-moleg-2027"
+      ]
+    },
+    {
+      "id": "kr.2027.seollal.leave-after",
+      "date": "2027-02-08",
+      "type": "official_leave",
+      "title": "설날 연휴",
+      "holidayId": "kr.seollal",
+      "sourceIds": [
+        "kr-moleg-2027"
+      ]
+    },
+    {
+      "id": "kr.2027.seollal.substitute",
+      "date": "2027-02-09",
+      "type": "compensatory_leave",
+      "title": "설날 대체공휴일",
+      "holidayId": "kr.seollal",
+      "sourceIds": [
+        "kr-moleg-2027"
+      ]
+    },
+    {
+      "id": "kr.2027.presidential-election",
+      "date": "2027-03-03",
+      "type": "official_holiday",
+      "title": "제21대 대통령선거",
+      "holidayId": "kr.election-day",
+      "sourceIds": [
+        "kr-moleg-2027"
+      ]
+    },
+    {
+      "id": "kr.2027.liberation-day.substitute",
+      "date": "2027-08-16",
+      "type": "compensatory_leave",
+      "title": "광복절 대체공휴일",
+      "holidayId": "kr.liberation-day",
+      "sourceIds": [
+        "kr-moleg-2027"
+      ]
+    },
+    {
+      "id": "kr.2027.chuseok.leave-before",
+      "date": "2027-09-14",
+      "type": "official_leave",
+      "title": "추석 연휴",
+      "holidayId": "kr.chuseok",
+      "sourceIds": [
+        "kr-moleg-2027"
+      ]
+    },
+    {
+      "id": "kr.2027.chuseok.day",
+      "date": "2027-09-15",
+      "type": "official_leave",
+      "title": "추석",
+      "holidayId": "kr.chuseok",
+      "sourceIds": [
+        "kr-moleg-2027"
+      ]
+    },
+    {
+      "id": "kr.2027.chuseok.leave-after",
+      "date": "2027-09-16",
+      "type": "official_leave",
+      "title": "추석 연휴",
+      "holidayId": "kr.chuseok",
+      "sourceIds": [
+        "kr-moleg-2027"
+      ]
+    },
+    {
+      "id": "kr.2027.national-foundation-day.substitute",
+      "date": "2027-10-04",
+      "type": "compensatory_leave",
+      "title": "개천절 대체공휴일",
+      "holidayId": "kr.national-foundation-day",
+      "sourceIds": [
+        "kr-moleg-2027"
+      ]
+    },
+    {
+      "id": "kr.2027.hangul-day.substitute",
+      "date": "2027-10-11",
+      "type": "compensatory_leave",
+      "title": "한글날 대체공휴일",
+      "holidayId": "kr.hangul-day",
+      "sourceIds": [
+        "kr-moleg-2027"
+      ]
+    },
+    {
+      "id": "kr.2027.christmas.substitute",
+      "date": "2027-12-27",
+      "type": "compensatory_leave",
+      "title": "기독탄신일 대체공휴일",
+      "holidayId": "kr.christmas",
+      "sourceIds": [
+        "kr-moleg-2027"
+      ]
+    }
+  ]
+}

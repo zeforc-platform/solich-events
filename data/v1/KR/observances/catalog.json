@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "documentType": "holiday_catalog",
+  "jurisdiction": {
+    "country": "KR",
+    "subdivision": null
+  },
+  "kind": "observance",
+  "updatedAt": "2026-08-13T00:00:00Z",
+  "sources": [
+    {
+      "id": "kr-labor-day-act",
+      "title": "근로자의 날 제정에 관한 법률",
+      "authority": "국회",
+      "url": "https://www.law.go.kr/lsInfoP.do?lsiSeq=136450"
+    },
+    {
+      "id": "kr-various-observances",
+      "title": "Various Commemorations",
+      "authority": "Various",
+      "url": "https://en.wikipedia.org/wiki/Public_holidays_in_South_Korea"
+    }
+  ],
+  "entries": [
+    {
+      "id": "kr.labor-day",
+      "title": "근로자의 날",
+      "icon": "👷",
+      "categoryId": "le-khac",
+      "rule": { "kind": "solar_fixed", "month": 5, "day": 1 },
+      "effective": { "fromYear": 1963 },
+      "sourceIds": ["kr-labor-day-act"],
+      "observanceType": "professional_commemoration"
+    },
+    {
+      "id": "kr.parents-day",
+      "title": "어버이날",
+      "icon": "👨‍👩‍👧",
+      "categoryId": "le-khac",
+      "rule": { "kind": "solar_fixed", "month": 5, "day": 8 },
+      "effective": { "fromYear": 1973 },
+      "sourceIds": ["kr-various-observances"],
+      "observanceType": "family_social_observance"
+    },
+    {
+      "id": "kr.teachers-day",
+      "title": "스승의 날",
+      "icon": "👨‍🏫",
+      "categoryId": "le-khac",
+      "rule": { "kind": "solar_fixed", "month": 5, "day": 15 },
+      "effective": { "fromYear": 1963 },
+      "sourceIds": ["kr-various-observances"],
+      "observanceType": "professional_commemoration"
+    },
+    {
+      "id": "kr.constitution-day",
+      "title": "제헌절",
+      "icon": "⚖️",
+      "categoryId": "le-khac",
+      "rule": { "kind": "solar_fixed", "month": 7, "day": 17 },
+      "effective": { "fromYear": 1949 },
+      "sourceIds": ["kr-various-observances"],
+      "observanceType": "national_commemoration"
+    },
+    {
+      "id": "kr.armed-forces-day",
+      "title": "국군의 날",
+      "icon": "🎖️",
+      "categoryId": "le-khac",
+      "rule": { "kind": "solar_fixed", "month": 10, "day": 1 },
+      "effective": { "fromYear": 1956 },
+      "sourceIds": ["kr-various-observances"],
+      "observanceType": "national_commemoration"
+    }
+  ]
+}
