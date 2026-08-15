@@ -1,0 +1,298 @@
+:root {
+    --bg-color: #0b0f19;
+    --text-color: #f1f5f9;
+    --text-muted: #94a3b8;
+    --card-bg: rgba(30, 41, 59, 0.4);
+    --card-border: rgba(255, 255, 255, 0.1);
+    --card-hover: rgba(30, 41, 59, 0.7);
+    --primary: #3b82f6;
+    --primary-glow: rgba(59, 130, 246, 0.5);
+    --accent: #8b5cf6;
+    --code-bg: #0f172a;
+    --font-main: 'Outfit', sans-serif;
+    --font-mono: 'Fira Code', monospace;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: var(--font-main);
+    line-height: 1.6;
+    min-height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+}
+
+/* Background glowing orbs */
+.background-elements {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.glow-orb {
+    position: absolute;
+    border-radius: 50%;
+    filter: blur(100px);
+    opacity: 0.5;
+}
+
+.orb-1 {
+    top: -10%;
+    left: -10%;
+    width: 50vw;
+    height: 50vw;
+    background: radial-gradient(circle, var(--accent) 0%, rgba(0,0,0,0) 70%);
+    animation: float 20s ease-in-out infinite alternate;
+}
+
+.orb-2 {
+    bottom: -20%;
+    right: -10%;
+    width: 60vw;
+    height: 60vw;
+    background: radial-gradient(circle, var(--primary) 0%, rgba(0,0,0,0) 70%);
+    animation: float 25s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes float {
+    0% { transform: translate(0, 0); }
+    100% { transform: translate(5%, 10%); }
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 4rem;
+    animation: fadeInDown 1s ease-out;
+}
+
+.logo {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--card-border);
+    border-radius: 2rem;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+    backdrop-filter: blur(10px);
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    letter-spacing: -0.05em;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, #fff 0%, #a5b4fc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+header p {
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.grid-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.card {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    position: relative;
+    overflow: hidden;
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: linear-gradient(180deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0) 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    background: var(--card-hover);
+    border-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5), 0 0 20px rgba(59, 130, 246, 0.2);
+}
+
+.card:hover::before {
+    opacity: 1;
+}
+
+.card.active {
+    border-color: var(--primary);
+    box-shadow: 0 0 20px var(--primary-glow);
+}
+
+.card-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.card h2 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin-bottom: 1.5rem;
+    min-height: 40px;
+}
+
+.endpoint {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--primary);
+    background: rgba(59, 130, 246, 0.1);
+    padding: 0.4rem 0.6rem;
+    border-radius: 0.25rem;
+    display: inline-block;
+    word-break: break-all;
+}
+
+.preview-section {
+    background: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 1rem;
+    overflow: hidden;
+    backdrop-filter: blur(12px);
+    margin-bottom: 4rem;
+    box-shadow: 0 20px 40px -20px rgba(0,0,0,0.5);
+}
+
+.preview-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    border-bottom: 1px solid var(--card-border);
+    background: rgba(0,0,0,0.2);
+}
+
+.preview-header h3 {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.badge {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    color: #a5b4fc;
+    background: rgba(165, 180, 252, 0.1);
+    padding: 0.3rem 0.8rem;
+    border-radius: 1rem;
+}
+
+.code-window {
+    background: var(--code-bg);
+    padding: 1.5rem;
+    position: relative;
+}
+
+.window-controls {
+    display: flex;
+    gap: 8px;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+.control {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.control.close { background: #ff5f56; }
+.control.minimize { background: #ffbd2e; }
+.control.maximize { background: #27c93f; }
+
+pre {
+    margin-top: 1rem;
+    overflow-x: auto;
+}
+
+code {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: #e2e8f0;
+    white-space: pre-wrap;
+    line-height: 1.5;
+}
+
+/* Very simple syntax highlighting simulation */
+.string { color: #a5d6ff; }
+.number { color: #79c0ff; }
+.boolean { color: #ff7b72; }
+.null { color: #ff7b72; }
+.key { color: #7ee787; }
+
+footer {
+    text-align: center;
+    padding-top: 2rem;
+    border-top: 1px solid var(--card-border);
+    color: var(--text-muted);
+    font-size: 0.9rem;
+}
+
+.links {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.links a {
+    color: var(--primary);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.links a:hover {
+    color: #60a5fa;
+}
+
+@keyframes fadeInDown {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+    h1 { font-size: 2.5rem; }
+    .container { padding: 2rem 1rem; }
+}

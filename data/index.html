@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sổ Lịch Events API</title>
+    <meta name="description" content="Nguồn dữ liệu sự kiện và ngày lễ chuẩn xác cho các quốc gia: Việt Nam, Hàn Quốc, Nhật Bản, Hoa Kỳ.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="background-elements">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+    </div>
+    
+    <main class="container">
+        <header>
+            <div class="logo">📅 Sổ Lịch Events</div>
+            <h1>Global Public Holidays API</h1>
+            <p>Nguồn dữ liệu ngày lễ, sự kiện chuẩn xác và được cập nhật liên tục cho các quốc gia. Được thiết kế tối ưu dành cho nhà phát triển (Developers).</p>
+        </header>
+
+        <section class="grid-section">
+            <div class="card active" data-country="VN">
+                <div class="card-icon">🇻🇳</div>
+                <h2>Việt Nam</h2>
+                <p>Lịch nghỉ lễ chính thức, Tết Âm lịch, lịch nghỉ bù.</p>
+                <div class="endpoint">/v1/VN/manifest.json</div>
+            </div>
+            <div class="card" data-country="KR">
+                <div class="card-icon">🇰🇷</div>
+                <h2>Hàn Quốc</h2>
+                <p>Seollal, Chuseok, các ngày nghỉ bù và ngày lễ quốc gia.</p>
+                <div class="endpoint">/v1/KR/manifest.json</div>
+            </div>
+            <div class="card" data-country="JP">
+                <div class="card-icon">🇯🇵</div>
+                <h2>Nhật Bản</h2>
+                <p>Quốc lễ, luật nghỉ bù, Silver Week, phân điểm thiên văn.</p>
+                <div class="endpoint">/v1/JP/manifest.json</div>
+            </div>
+            <div class="card" data-country="US">
+                <div class="card-icon">🇺🇸</div>
+                <h2>Hoa Kỳ</h2>
+                <p>Ngày lễ liên bang, quy tắc nghỉ thứ Hai, Juneteenth.</p>
+                <div class="endpoint">/v1/US/manifest.json</div>
+            </div>
+        </section>
+
+        <section class="preview-section">
+            <div class="preview-header">
+                <h3>Live JSON Preview</h3>
+                <span class="badge" id="current-endpoint">/v1/VN/manifest.json</span>
+            </div>
+            <div class="code-window">
+                <div class="window-controls">
+                    <span class="control close"></span>
+                    <span class="control minimize"></span>
+                    <span class="control maximize"></span>
+                </div>
+                <pre><code id="json-preview">Loading...</code></pre>
+            </div>
+        </section>
+        
+        <footer>
+            <p>&copy; 2026 Zeforc Platform. Open source data API.</p>
+            <div class="links">
+                <a href="https://solich.zeforc.com" target="_blank">Sổ Lịch App</a>
+                <a href="/schema/v1/holiday-catalog.schema.json" target="_blank">Schema Docs</a>
+            </div>
+        </footer>
+    </main>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
