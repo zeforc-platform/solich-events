@@ -32,7 +32,6 @@
           "id",
           "title",
           "icon",
-          "categoryId",
           "rule",
           "effective",
           "sourceIds"
@@ -41,7 +40,6 @@
           "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9.-]*$" },
           "title": { "type": "string", "minLength": 1 },
           "icon": { "type": "string", "minLength": 1 },
-          "categoryId": { "type": "string", "minLength": 1 },
           "rule": { "$ref": "common.schema.json#/$defs/calendarRule" },
           "effective": { "$ref": "common.schema.json#/$defs/effectivePeriod" },
           "sourceIds": {
