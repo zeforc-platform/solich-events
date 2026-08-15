@@ -1,0 +1,53 @@
+name: JSON Schema Validation
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate:
+    name: Validate JSON Data
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install ajv-cli
+        run: npm install -g ajv-cli
+
+      - name: Validate Manifests
+        run: |
+          ajv validate -s schema/v1/manifest.schema.json -r "schema/v1/*.schema.json" -d "data/v1/*/manifest.json"
+
+      - name: Validate Official Catalogs
+        run: |
+          ajv validate -s schema/v1/holiday-catalog.schema.json -r "schema/v1/*.schema.json" -d "data/v1/*/official/catalog.json"
+
+      - name: Validate Observances Catalogs
+        run: |
+          # Loop through instead of glob to avoid error if a country doesn't have an observances catalog yet
+          shopt -s nullglob
+          for file in data/v1/*/observances/catalog.json; do
+            if [ -f "$file" ]; then
+              echo "Validating $file..."
+              ajv validate -s schema/v1/holiday-catalog.schema.json -r "schema/v1/*.schema.json" -d "$file"
+            fi
+          done
+
+      - name: Validate Official Overrides
+        run: |
+          shopt -s nullglob
+          for file in data/v1/*/official/overrides/*.json; do
+            if [ -f "$file" ]; then
+              ajv validate -s schema/v1/official-overrides.schema.json -r "schema/v1/*.schema.json" -d "$file"
+            fi
+          done
