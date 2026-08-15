@@ -20,7 +20,6 @@
       "id": "jp.new-years-day",
       "title": "元日",
       "icon": "🎍",
-      "categoryId": "le-chinh-thuc",
       "rule": {
         "kind": "solar_fixed",
         "month": 1,
@@ -29,7 +28,9 @@
       "effective": {
         "fromYear": 1948
       },
-      "sourceIds": ["jp-cabinet-office"],
+      "sourceIds": [
+        "jp-cabinet-office"
+      ],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -38,7 +39,6 @@
       "id": "jp.coming-of-age-day",
       "title": "成人の日",
       "icon": "👘",
-      "categoryId": "le-chinh-thuc",
       "rule": {
         "kind": "solar_nth_weekday",
         "month": 1,
@@ -48,7 +48,9 @@
       "effective": {
         "fromYear": 2000
       },
-      "sourceIds": ["jp-cabinet-office"],
+      "sourceIds": [
+        "jp-cabinet-office"
+      ],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -57,7 +59,6 @@
       "id": "jp.foundation-day",
       "title": "建国記念の日",
       "icon": "🎌",
-      "categoryId": "le-chinh-thuc",
       "rule": {
         "kind": "solar_fixed",
         "month": 2,
@@ -66,7 +67,9 @@
       "effective": {
         "fromYear": 1966
       },
-      "sourceIds": ["jp-cabinet-office"],
+      "sourceIds": [
+        "jp-cabinet-office"
+      ],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -75,7 +78,6 @@
       "id": "jp.emperors-birthday",
       "title": "天皇誕生日",
       "icon": "🎂",
-      "categoryId": "le-chinh-thuc",
       "rule": {
         "kind": "solar_fixed",
         "month": 2,
@@ -84,7 +86,9 @@
       "effective": {
         "fromYear": 2020
       },
-      "sourceIds": ["jp-cabinet-office"],
+      "sourceIds": [
+        "jp-cabinet-office"
+      ],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -93,7 +97,6 @@
       "id": "jp.vernal-equinox",
       "title": "春分の日",
       "icon": "🌸",
-      "categoryId": "le-chinh-thuc",
       "rule": {
         "kind": "solar_fixed",
         "month": 3,
@@ -102,7 +105,9 @@
       "effective": {
         "fromYear": 1948
       },
-      "sourceIds": ["jp-cabinet-office"],
+      "sourceIds": [
+        "jp-cabinet-office"
+      ],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -111,7 +116,6 @@
       "id": "jp.showa-day",
       "title": "昭和の日",
       "icon": "🌱",
-      "categoryId": "le-chinh-thuc",
       "rule": {
         "kind": "solar_fixed",
         "month": 4,
@@ -120,7 +124,9 @@
       "effective": {
         "fromYear": 2007
       },
-      "sourceIds": ["jp-cabinet-office"],
+      "sourceIds": [
+        "jp-cabinet-office"
+      ],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -129,7 +135,6 @@
       "id": "jp.constitution-day",
       "title": "憲法記念日",
       "icon": "📜",
-      "categoryId": "le-chinh-thuc",
       "rule": {
         "kind": "solar_fixed",
         "month": 5,
@@ -138,7 +143,9 @@
       "effective": {
         "fromYear": 1948
       },
-      "sourceIds": ["jp-cabinet-office"],
+      "sourceIds": [
+        "jp-cabinet-office"
+      ],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -147,7 +154,6 @@
       "id": "jp.greenery-day",
       "title": "みどりの日",
       "icon": "🌳",
-      "categoryId": "le-chinh-thuc",
       "rule": {
         "kind": "solar_fixed",
         "month": 5,
@@ -156,7 +162,9 @@
       "effective": {
         "fromYear": 2007
       },
-      "sourceIds": ["jp-cabinet-office"],
+      "sourceIds": [
+        "jp-cabinet-office"
+      ],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -165,7 +173,6 @@
       "id": "jp.childrens-day",
       "title": "こどもの日",
       "icon": "🎏",
-      "categoryId": "le-chinh-thuc",
       "rule": {
         "kind": "solar_fixed",
         "month": 5,
@@ -174,7 +181,9 @@
       "effective": {
         "fromYear": 1948
       },
-      "sourceIds": ["jp-cabinet-office"],
+      "sourceIds": [
+        "jp-cabinet-office"
+      ],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -183,7 +192,6 @@
       "id": "jp.marine-day",
       "title": "海の日",
       "icon": "🌊",
-      "categoryId": "le-chinh-thuc",
       "rule": {
         "kind": "solar_nth_weekday",
         "month": 7,
@@ -193,7 +201,9 @@
       "effective": {
         "fromYear": 2003
       },
-      "sourceIds": ["jp-cabinet-office"],
+      "sourceIds": [
+        "jp-cabinet-office"
+      ],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -202,7 +212,6 @@
       "id": "jp.mountain-day",
       "title": "山の日",
       "icon": "⛰️",
-      "categoryId": "le-chinh-thuc",
       "rule": {
         "kind": "solar_fixed",
         "month": 8,
@@ -211,7 +220,9 @@
       "effective": {
         "fromYear": 2016
       },
-      "sourceIds": ["jp-cabinet-office"],
+      "sourceIds": [
+        "jp-cabinet-office"
+      ],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -220,7 +231,6 @@
       "id": "jp.respect-for-the-aged-day",
       "title": "敬老の日",
       "icon": "🧓",
-      "categoryId": "le-chinh-thuc",
       "rule": {
         "kind": "solar_nth_weekday",
         "month": 9,
@@ -230,7 +240,9 @@
       "effective": {
         "fromYear": 2003
       },
-      "sourceIds": ["jp-cabinet-office"],
+      "sourceIds": [
+        "jp-cabinet-office"
+      ],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -239,7 +251,6 @@
       "id": "jp.autumnal-equinox",
       "title": "秋分の日",
       "icon": "🍁",
-      "categoryId": "le-chinh-thuc",
       "rule": {
         "kind": "solar_fixed",
         "month": 9,
@@ -248,7 +259,9 @@
       "effective": {
         "fromYear": 1948
       },
-      "sourceIds": ["jp-cabinet-office"],
+      "sourceIds": [
+        "jp-cabinet-office"
+      ],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -257,7 +270,6 @@
       "id": "jp.sports-day",
       "title": "スポーツの日",
       "icon": "🏃",
-      "categoryId": "le-chinh-thuc",
       "rule": {
         "kind": "solar_nth_weekday",
         "month": 10,
@@ -267,7 +279,9 @@
       "effective": {
         "fromYear": 2020
       },
-      "sourceIds": ["jp-cabinet-office"],
+      "sourceIds": [
+        "jp-cabinet-office"
+      ],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -276,7 +290,6 @@
       "id": "jp.culture-day",
       "title": "文化の日",
       "icon": "🎭",
-      "categoryId": "le-chinh-thuc",
       "rule": {
         "kind": "solar_fixed",
         "month": 11,
@@ -285,7 +298,9 @@
       "effective": {
         "fromYear": 1948
       },
-      "sourceIds": ["jp-cabinet-office"],
+      "sourceIds": [
+        "jp-cabinet-office"
+      ],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -294,7 +309,6 @@
       "id": "jp.labor-thanksgiving-day",
       "title": "勤労感謝の日",
       "icon": "🌾",
-      "categoryId": "le-chinh-thuc",
       "rule": {
         "kind": "solar_fixed",
         "month": 11,
@@ -303,7 +317,9 @@
       "effective": {
         "fromYear": 1948
       },
-      "sourceIds": ["jp-cabinet-office"],
+      "sourceIds": [
+        "jp-cabinet-office"
+      ],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -312,7 +328,6 @@
       "id": "jp.substitute-holiday",
       "title": "振替休日",
       "icon": "🗓️",
-      "categoryId": "le-chinh-thuc",
       "rule": {
         "kind": "solar_fixed",
         "month": 1,
@@ -322,7 +337,9 @@
         "fromYear": 1973,
         "toYear": 1973
       },
-      "sourceIds": ["jp-cabinet-office"],
+      "sourceIds": [
+        "jp-cabinet-office"
+      ],
       "leavePolicy": {
         "kind": "same_day"
       }
@@ -331,7 +348,6 @@
       "id": "jp.national-holiday",
       "title": "国民の休日",
       "icon": "🗓️",
-      "categoryId": "le-chinh-thuc",
       "rule": {
         "kind": "solar_fixed",
         "month": 1,
@@ -341,7 +357,9 @@
         "fromYear": 1985,
         "toYear": 1985
       },
-      "sourceIds": ["jp-cabinet-office"],
+      "sourceIds": [
+        "jp-cabinet-office"
+      ],
       "leavePolicy": {
         "kind": "same_day"
       }
