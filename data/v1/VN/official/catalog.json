@@ -35,80 +35,140 @@
       "id": "vn.new-years-day",
       "title": "Tết Dương lịch",
       "icon": "🎆",
-      "categoryId": "le-chinh-thuc",
-      "rule": { "kind": "solar_fixed", "month": 1, "day": 1 },
-      "effective": { "fromYear": 2013 },
-      "sourceIds": ["vn-labour-code-2012", "vn-labour-code-2019"],
-      "leavePolicy": { "kind": "same_day" }
+      "rule": {
+        "kind": "solar_fixed",
+        "month": 1,
+        "day": 1
+      },
+      "effective": {
+        "fromYear": 2013
+      },
+      "sourceIds": [
+        "vn-labour-code-2012",
+        "vn-labour-code-2019"
+      ],
+      "leavePolicy": {
+        "kind": "same_day"
+      }
     },
     {
       "id": "vn.lunar-new-year",
       "title": "Tết Nguyên Đán",
       "icon": "🧧",
-      "categoryId": "le-chinh-thuc",
       "rule": {
         "kind": "lunar_fixed",
         "month": 1,
         "day": 1,
         "leapMonth": false
       },
-      "effective": { "fromYear": 2013 },
-      "sourceIds": ["vn-labour-code-2012", "vn-labour-code-2019"],
-      "leavePolicy": { "kind": "annual_schedule_required", "statutoryDays": 5 }
+      "effective": {
+        "fromYear": 2013
+      },
+      "sourceIds": [
+        "vn-labour-code-2012",
+        "vn-labour-code-2019"
+      ],
+      "leavePolicy": {
+        "kind": "annual_schedule_required",
+        "statutoryDays": 5
+      }
     },
     {
       "id": "vn.hung-kings-commemoration",
       "title": "Giỗ Tổ Hùng Vương",
       "icon": "🏯",
-      "categoryId": "le-chinh-thuc",
       "rule": {
         "kind": "lunar_fixed",
         "month": 3,
         "day": 10,
         "leapMonth": false
       },
-      "effective": { "fromYear": 2013 },
-      "sourceIds": ["vn-labour-code-2012", "vn-labour-code-2019"],
-      "leavePolicy": { "kind": "same_day" }
+      "effective": {
+        "fromYear": 2013
+      },
+      "sourceIds": [
+        "vn-labour-code-2012",
+        "vn-labour-code-2019"
+      ],
+      "leavePolicy": {
+        "kind": "same_day"
+      }
     },
     {
       "id": "vn.reunification-day",
       "title": "Ngày Thống nhất đất nước",
       "icon": "🇻🇳",
-      "categoryId": "le-chinh-thuc",
-      "rule": { "kind": "solar_fixed", "month": 4, "day": 30 },
-      "effective": { "fromYear": 2013 },
-      "sourceIds": ["vn-labour-code-2012", "vn-labour-code-2019"],
-      "leavePolicy": { "kind": "same_day" }
+      "rule": {
+        "kind": "solar_fixed",
+        "month": 4,
+        "day": 30
+      },
+      "effective": {
+        "fromYear": 2013
+      },
+      "sourceIds": [
+        "vn-labour-code-2012",
+        "vn-labour-code-2019"
+      ],
+      "leavePolicy": {
+        "kind": "same_day"
+      }
     },
     {
       "id": "vn.international-workers-day",
       "title": "Ngày Quốc tế Lao động",
       "icon": "👷",
-      "categoryId": "le-chinh-thuc",
-      "rule": { "kind": "solar_fixed", "month": 5, "day": 1 },
-      "effective": { "fromYear": 2013 },
-      "sourceIds": ["vn-labour-code-2012", "vn-labour-code-2019"],
-      "leavePolicy": { "kind": "same_day" }
+      "rule": {
+        "kind": "solar_fixed",
+        "month": 5,
+        "day": 1
+      },
+      "effective": {
+        "fromYear": 2013
+      },
+      "sourceIds": [
+        "vn-labour-code-2012",
+        "vn-labour-code-2019"
+      ],
+      "leavePolicy": {
+        "kind": "same_day"
+      }
     },
     {
       "id": "vn.national-day-legacy",
       "title": "Quốc khánh Việt Nam",
       "icon": "🇻🇳",
-      "categoryId": "le-chinh-thuc",
-      "rule": { "kind": "solar_fixed", "month": 9, "day": 2 },
-      "effective": { "fromYear": 2013, "toYear": 2020 },
-      "sourceIds": ["vn-labour-code-2012"],
-      "leavePolicy": { "kind": "same_day" }
+      "rule": {
+        "kind": "solar_fixed",
+        "month": 9,
+        "day": 2
+      },
+      "effective": {
+        "fromYear": 2013,
+        "toYear": 2020
+      },
+      "sourceIds": [
+        "vn-labour-code-2012"
+      ],
+      "leavePolicy": {
+        "kind": "same_day"
+      }
     },
     {
       "id": "vn.national-day",
       "title": "Quốc khánh Việt Nam",
       "icon": "🇻🇳",
-      "categoryId": "le-chinh-thuc",
-      "rule": { "kind": "solar_fixed", "month": 9, "day": 2 },
-      "effective": { "fromYear": 2021 },
-      "sourceIds": ["vn-labour-code-2019"],
+      "rule": {
+        "kind": "solar_fixed",
+        "month": 9,
+        "day": 2
+      },
+      "effective": {
+        "fromYear": 2021
+      },
+      "sourceIds": [
+        "vn-labour-code-2019"
+      ],
       "leavePolicy": {
         "kind": "annual_schedule_required",
         "statutoryDays": 2,
@@ -119,11 +179,20 @@
       "id": "vn.vietnamese-culture-day",
       "title": "Ngày Văn hóa Việt Nam",
       "icon": "🎭",
-      "categoryId": "le-chinh-thuc",
-      "rule": { "kind": "solar_fixed", "month": 11, "day": 24 },
-      "effective": { "fromYear": 2026 },
-      "sourceIds": ["vn-cultural-development-resolution-2026"],
-      "leavePolicy": { "kind": "same_day" }
+      "rule": {
+        "kind": "solar_fixed",
+        "month": 11,
+        "day": 24
+      },
+      "effective": {
+        "fromYear": 2026
+      },
+      "sourceIds": [
+        "vn-cultural-development-resolution-2026"
+      ],
+      "leavePolicy": {
+        "kind": "same_day"
+      }
     }
   ]
 }
