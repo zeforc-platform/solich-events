@@ -34,7 +34,6 @@
       "id": "vn.general-election-day",
       "title": "Ngày Tổng tuyển cử đầu tiên",
       "icon": "🗳️",
-      "categoryId": "le-khac",
       "rule": {
         "kind": "solar_fixed",
         "month": 1,
@@ -43,14 +42,15 @@
       "effective": {
         "fromYear": 1946
       },
-      "sourceIds": ["vn-major-events-2026"],
+      "sourceIds": [
+        "vn-major-events-2026"
+      ],
       "observanceType": "historical_commemoration"
     },
     {
       "id": "vn.communist-party-founding-day",
       "title": "Ngày thành lập Đảng Cộng sản Việt Nam",
       "icon": "⭐",
-      "categoryId": "le-khac",
       "rule": {
         "kind": "solar_fixed",
         "month": 2,
@@ -59,14 +59,15 @@
       "effective": {
         "fromYear": 1930
       },
-      "sourceIds": ["vn-major-events-2026"],
+      "sourceIds": [
+        "vn-major-events-2026"
+      ],
       "observanceType": "national_commemoration"
     },
     {
       "id": "vn.vietnamese-physicians-day",
       "title": "Ngày Thầy thuốc Việt Nam",
       "icon": "⚕️",
-      "categoryId": "le-khac",
       "rule": {
         "kind": "solar_fixed",
         "month": 2,
@@ -75,14 +76,15 @@
       "effective": {
         "fromYear": 1955
       },
-      "sourceIds": ["vn-major-events-2026"],
+      "sourceIds": [
+        "vn-major-events-2026"
+      ],
       "observanceType": "professional_commemoration"
     },
     {
       "id": "vn.ho-chi-minh-communist-youth-union-day",
       "title": "Ngày thành lập Đoàn Thanh niên Cộng sản Hồ Chí Minh",
       "icon": "✊",
-      "categoryId": "le-khac",
       "rule": {
         "kind": "solar_fixed",
         "month": 3,
@@ -91,14 +93,15 @@
       "effective": {
         "fromYear": 1931
       },
-      "sourceIds": ["vn-major-events-2026"],
+      "sourceIds": [
+        "vn-major-events-2026"
+      ],
       "observanceType": "national_commemoration"
     },
     {
       "id": "vn.han-thuc-festival",
       "title": "Tết Hàn thực",
       "icon": "🍡",
-      "categoryId": "le-khac",
       "rule": {
         "kind": "lunar_fixed",
         "month": 3,
@@ -108,14 +111,15 @@
       "effective": {
         "fromYear": 1
       },
-      "sourceIds": ["vn-traditional-observances"],
+      "sourceIds": [
+        "vn-traditional-observances"
+      ],
       "observanceType": "cultural_traditional"
     },
     {
       "id": "vn.dien-bien-phu-victory-day",
       "title": "Ngày Chiến thắng Điện Biên Phủ",
       "icon": "🏔️",
-      "categoryId": "le-khac",
       "rule": {
         "kind": "solar_fixed",
         "month": 5,
@@ -124,14 +128,15 @@
       "effective": {
         "fromYear": 1954
       },
-      "sourceIds": ["vn-major-events-2026"],
+      "sourceIds": [
+        "vn-major-events-2026"
+      ],
       "observanceType": "historical_commemoration"
     },
     {
       "id": "vn.ho-chi-minh-birthday",
       "title": "Ngày sinh Chủ tịch Hồ Chí Minh",
       "icon": "🌸",
-      "categoryId": "le-khac",
       "rule": {
         "kind": "solar_fixed",
         "month": 5,
@@ -140,14 +145,15 @@
       "effective": {
         "fromYear": 1890
       },
-      "sourceIds": ["vn-major-events-2026"],
+      "sourceIds": [
+        "vn-major-events-2026"
+      ],
       "observanceType": "national_commemoration"
     },
     {
       "id": "vn.doan-ngo-festival",
       "title": "Tết Đoan Ngọ",
       "icon": "🍚",
-      "categoryId": "le-khac",
       "rule": {
         "kind": "lunar_fixed",
         "month": 5,
@@ -157,14 +163,15 @@
       "effective": {
         "fromYear": 1
       },
-      "sourceIds": ["vn-traditional-observances"],
+      "sourceIds": [
+        "vn-traditional-observances"
+      ],
       "observanceType": "cultural_traditional"
     },
     {
       "id": "vn.revolutionary-press-day",
       "title": "Ngày Báo chí Cách mạng Việt Nam",
       "icon": "📰",
-      "categoryId": "le-khac",
       "rule": {
         "kind": "solar_fixed",
         "month": 6,
@@ -173,14 +180,15 @@
       "effective": {
         "fromYear": 1925
       },
-      "sourceIds": ["vn-revolutionary-press-day-2026"],
+      "sourceIds": [
+        "vn-revolutionary-press-day-2026"
+      ],
       "observanceType": "professional_commemoration"
     },
     {
       "id": "vn.vietnamese-family-day",
       "title": "Ngày Gia đình Việt Nam",
       "icon": "👨‍👩‍👧",
-      "categoryId": "le-khac",
       "rule": {
         "kind": "solar_fixed",
         "month": 6,
@@ -189,14 +197,15 @@
       "effective": {
         "fromYear": 2001
       },
-      "sourceIds": ["vn-major-events-2026"],
+      "sourceIds": [
+        "vn-major-events-2026"
+      ],
       "observanceType": "family_social_observance"
     },
     {
       "id": "vn.war-invalids-and-martyrs-day",
       "title": "Ngày Thương binh - Liệt sĩ",
       "icon": "🕯️",
-      "categoryId": "le-khac",
       "rule": {
         "kind": "solar_fixed",
         "month": 7,
@@ -205,14 +214,15 @@
       "effective": {
         "fromYear": 1947
       },
-      "sourceIds": ["vn-major-events-2026"],
+      "sourceIds": [
+        "vn-major-events-2026"
+      ],
       "observanceType": "national_commemoration"
     },
     {
       "id": "vn.august-revolution-day",
       "title": "Ngày Cách mạng Tháng Tám thành công",
       "icon": "✊",
-      "categoryId": "le-khac",
       "rule": {
         "kind": "solar_fixed",
         "month": 8,
@@ -221,14 +231,15 @@
       "effective": {
         "fromYear": 1945
       },
-      "sourceIds": ["vn-major-events-2026"],
+      "sourceIds": [
+        "vn-major-events-2026"
+      ],
       "observanceType": "historical_commemoration"
     },
     {
       "id": "vn.mid-autumn-festival",
       "title": "Tết Trung Thu",
       "icon": "🏮",
-      "categoryId": "le-khac",
       "rule": {
         "kind": "lunar_fixed",
         "month": 8,
@@ -238,14 +249,15 @@
       "effective": {
         "fromYear": 1
       },
-      "sourceIds": ["vn-traditional-observances"],
+      "sourceIds": [
+        "vn-traditional-observances"
+      ],
       "observanceType": "cultural_traditional"
     },
     {
       "id": "vn.vietnamese-womens-day",
       "title": "Ngày Phụ nữ Việt Nam",
       "icon": "💐",
-      "categoryId": "le-khac",
       "rule": {
         "kind": "solar_fixed",
         "month": 10,
@@ -254,14 +266,15 @@
       "effective": {
         "fromYear": 1930
       },
-      "sourceIds": ["vn-major-events-2026"],
+      "sourceIds": [
+        "vn-major-events-2026"
+      ],
       "observanceType": "family_social_observance"
     },
     {
       "id": "vn.vietnamese-law-day",
       "title": "Ngày Pháp luật Việt Nam",
       "icon": "⚖️",
-      "categoryId": "le-khac",
       "rule": {
         "kind": "solar_fixed",
         "month": 11,
@@ -270,14 +283,15 @@
       "effective": {
         "fromYear": 2013
       },
-      "sourceIds": ["vn-major-events-2026"],
+      "sourceIds": [
+        "vn-major-events-2026"
+      ],
       "observanceType": "national_commemoration"
     },
     {
       "id": "vn.vietnamese-teachers-day",
       "title": "Ngày Nhà giáo Việt Nam",
       "icon": "📚",
-      "categoryId": "le-khac",
       "rule": {
         "kind": "solar_fixed",
         "month": 11,
@@ -286,14 +300,15 @@
       "effective": {
         "fromYear": 1982
       },
-      "sourceIds": ["vn-major-events-2026"],
+      "sourceIds": [
+        "vn-major-events-2026"
+      ],
       "observanceType": "professional_commemoration"
     },
     {
       "id": "vn.vietnamese-cultural-heritage-day",
       "title": "Ngày Di sản Văn hóa Việt Nam",
       "icon": "🏛️",
-      "categoryId": "le-khac",
       "rule": {
         "kind": "solar_fixed",
         "month": 11,
@@ -302,14 +317,15 @@
       "effective": {
         "fromYear": 2005
       },
-      "sourceIds": ["vn-major-events-2026"],
+      "sourceIds": [
+        "vn-major-events-2026"
+      ],
       "observanceType": "cultural_traditional"
     },
     {
       "id": "vn.national-resistance-day",
       "title": "Ngày Toàn quốc kháng chiến",
       "icon": "🕊️",
-      "categoryId": "le-khac",
       "rule": {
         "kind": "solar_fixed",
         "month": 12,
@@ -318,14 +334,15 @@
       "effective": {
         "fromYear": 1946
       },
-      "sourceIds": ["vn-major-events-2026"],
+      "sourceIds": [
+        "vn-major-events-2026"
+      ],
       "observanceType": "historical_commemoration"
     },
     {
       "id": "vn.peoples-army-founding-day",
       "title": "Ngày thành lập Quân đội Nhân dân Việt Nam",
       "icon": "🎖️",
-      "categoryId": "le-khac",
       "rule": {
         "kind": "solar_fixed",
         "month": 12,
@@ -334,14 +351,15 @@
       "effective": {
         "fromYear": 1944
       },
-      "sourceIds": ["vn-major-events-2026"],
+      "sourceIds": [
+        "vn-major-events-2026"
+      ],
       "observanceType": "national_commemoration"
     },
     {
       "id": "vn.kitchen-gods-day",
       "title": "Tết Ông Công Ông Táo",
       "icon": "🐟",
-      "categoryId": "le-khac",
       "rule": {
         "kind": "lunar_fixed",
         "month": 12,
@@ -351,7 +369,9 @@
       "effective": {
         "fromYear": 1
       },
-      "sourceIds": ["vn-traditional-observances"],
+      "sourceIds": [
+        "vn-traditional-observances"
+      ],
       "observanceType": "cultural_traditional"
     }
   ]
