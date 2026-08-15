@@ -46,225 +46,401 @@
   "entries": [
     {
       "id": "international.valentines-day",
-      "title": "Ngày Lễ Tình nhân",
+      "title": "Valentine's Day",
       "icon": "💝",
-      "categoryId": "le-khac",
-      "rule": { "kind": "solar_fixed", "month": 2, "day": 14 },
-      "effective": { "fromYear": 1 },
-      "sourceIds": ["cultural-observances"],
+      "rule": {
+        "kind": "solar_fixed",
+        "month": 2,
+        "day": 14
+      },
+      "effective": {
+        "fromYear": 1
+      },
+      "sourceIds": [
+        "cultural-observances"
+      ],
       "observanceType": "social_cultural_observance",
-      "applicability": { "mode": "all" }
+      "applicability": {
+        "mode": "all"
+      }
     },
     {
       "id": "international-womens-day",
-      "title": "Ngày Quốc tế Phụ nữ",
+      "title": "International Women's Day",
       "icon": "🌷",
-      "categoryId": "le-khac",
-      "rule": { "kind": "solar_fixed", "month": 3, "day": 8 },
-      "effective": { "fromYear": 1911 },
-      "sourceIds": ["un-international-days"],
+      "rule": {
+        "kind": "solar_fixed",
+        "month": 3,
+        "day": 8
+      },
+      "effective": {
+        "fromYear": 1911
+      },
+      "sourceIds": [
+        "un-international-days"
+      ],
       "observanceType": "international_observance",
-      "applicability": { "mode": "all" }
+      "applicability": {
+        "mode": "all"
+      }
     },
     {
       "id": "international-day-of-happiness",
-      "title": "Ngày Quốc tế Hạnh phúc",
+      "title": "International Day of Happiness",
       "icon": "😊",
-      "categoryId": "le-khac",
-      "rule": { "kind": "solar_fixed", "month": 3, "day": 20 },
-      "effective": { "fromYear": 2013 },
-      "sourceIds": ["un-international-days"],
+      "rule": {
+        "kind": "solar_fixed",
+        "month": 3,
+        "day": 20
+      },
+      "effective": {
+        "fromYear": 2013
+      },
+      "sourceIds": [
+        "un-international-days"
+      ],
       "observanceType": "international_observance",
-      "applicability": { "mode": "all" }
+      "applicability": {
+        "mode": "all"
+      }
     },
     {
       "id": "world-earth-day",
-      "title": "Ngày Trái Đất",
+      "title": "Earth Day",
       "icon": "🌍",
-      "categoryId": "le-khac",
-      "rule": { "kind": "solar_fixed", "month": 4, "day": 22 },
-      "effective": { "fromYear": 1970 },
-      "sourceIds": ["un-international-days"],
+      "rule": {
+        "kind": "solar_fixed",
+        "month": 4,
+        "day": 22
+      },
+      "effective": {
+        "fromYear": 1970
+      },
+      "sourceIds": [
+        "un-international-days"
+      ],
       "observanceType": "international_observance",
-      "applicability": { "mode": "all" }
+      "applicability": {
+        "mode": "all"
+      }
     },
     {
       "id": "international.vesak-vietnam",
       "title": "Lễ Phật đản",
       "icon": "🪷",
-      "categoryId": "le-khac",
       "rule": {
         "kind": "lunar_fixed",
         "month": 4,
         "day": 15,
         "leapMonth": false
       },
-      "effective": { "fromYear": 1 },
-      "sourceIds": ["east-asian-buddhist"],
+      "effective": {
+        "fromYear": 1
+      },
+      "sourceIds": [
+        "east-asian-buddhist"
+      ],
       "observanceType": "religious_traditional",
-      "religiousTraditions": ["buddhist"],
-      "applicability": { "mode": "countries", "countries": ["VN"] }
+      "religiousTraditions": [
+        "buddhist"
+      ],
+      "applicability": {
+        "mode": "countries",
+        "countries": [
+          "VN"
+        ]
+      }
     },
     {
       "id": "international.buddhas-birthday",
-      "title": "Phật đản",
+      "title": "佛誕",
       "icon": "🪷",
-      "categoryId": "le-khac",
       "rule": {
         "kind": "lunar_fixed",
         "month": 4,
         "day": 8,
         "leapMonth": false
       },
-      "effective": { "fromYear": 1 },
-      "sourceIds": ["east-asian-buddhist"],
+      "effective": {
+        "fromYear": 1
+      },
+      "sourceIds": [
+        "east-asian-buddhist"
+      ],
       "observanceType": "religious_traditional",
-      "religiousTraditions": ["buddhist"],
-      "applicability": { "mode": "countries", "countries": ["TW"] }
+      "religiousTraditions": [
+        "buddhist"
+      ],
+      "applicability": {
+        "mode": "countries",
+        "countries": [
+          "TW"
+        ]
+      }
     },
     {
       "id": "international.hanamatsuri",
-      "title": "Hanamatsuri — Phật đản",
+      "title": "花まつり",
       "icon": "🌸",
-      "categoryId": "le-khac",
-      "rule": { "kind": "solar_fixed", "month": 4, "day": 8 },
-      "effective": { "fromYear": 1 },
-      "sourceIds": ["jp-hanamatsuri"],
+      "rule": {
+        "kind": "solar_fixed",
+        "month": 4,
+        "day": 8
+      },
+      "effective": {
+        "fromYear": 1
+      },
+      "sourceIds": [
+        "jp-hanamatsuri"
+      ],
       "observanceType": "religious_traditional",
-      "religiousTraditions": ["buddhist"],
-      "applicability": { "mode": "countries", "countries": ["JP"] }
+      "religiousTraditions": [
+        "buddhist"
+      ],
+      "applicability": {
+        "mode": "countries",
+        "countries": [
+          "JP"
+        ]
+      }
     },
     {
       "id": "international-childrens-day",
-      "title": "Ngày Quốc tế Thiếu nhi",
+      "title": "International Children's Day",
       "icon": "🧒",
-      "categoryId": "le-khac",
-      "rule": { "kind": "solar_fixed", "month": 6, "day": 1 },
-      "effective": { "fromYear": 1950 },
-      "sourceIds": ["un-international-days"],
+      "rule": {
+        "kind": "solar_fixed",
+        "month": 6,
+        "day": 1
+      },
+      "effective": {
+        "fromYear": 1950
+      },
+      "sourceIds": [
+        "un-international-days"
+      ],
       "observanceType": "international_observance",
-      "applicability": { "mode": "all" }
+      "applicability": {
+        "mode": "all"
+      }
     },
     {
       "id": "world-environment-day",
-      "title": "Ngày Môi trường Thế giới",
+      "title": "World Environment Day",
       "icon": "🌱",
-      "categoryId": "le-khac",
-      "rule": { "kind": "solar_fixed", "month": 6, "day": 5 },
-      "effective": { "fromYear": 1973 },
-      "sourceIds": ["un-international-days"],
+      "rule": {
+        "kind": "solar_fixed",
+        "month": 6,
+        "day": 5
+      },
+      "effective": {
+        "fromYear": 1973
+      },
+      "sourceIds": [
+        "un-international-days"
+      ],
       "observanceType": "international_observance",
-      "applicability": { "mode": "all" }
+      "applicability": {
+        "mode": "all"
+      }
     },
     {
       "id": "international.ullambana-vu-lan",
       "title": "Lễ Vu Lan",
-      "icon": "🪷",
-      "categoryId": "le-khac",
+      "icon": "🌹",
       "rule": {
         "kind": "lunar_fixed",
         "month": 7,
         "day": 15,
         "leapMonth": false
       },
-      "effective": { "fromYear": 1 },
-      "sourceIds": ["east-asian-buddhist"],
+      "effective": {
+        "fromYear": 1
+      },
+      "sourceIds": [
+        "east-asian-buddhist"
+      ],
       "observanceType": "religious_traditional",
-      "religiousTraditions": ["buddhist"],
-      "applicability": { "mode": "countries", "countries": ["VN"] }
+      "religiousTraditions": [
+        "buddhist"
+      ],
+      "applicability": {
+        "mode": "countries",
+        "countries": [
+          "VN"
+        ]
+      }
     },
     {
       "id": "international.baekjung",
-      "title": "Baekjung — Lễ Vu Lan",
-      "icon": "🪷",
-      "categoryId": "le-khac",
+      "title": "백중",
+      "icon": "🌹",
       "rule": {
         "kind": "lunar_fixed",
         "month": 7,
         "day": 15,
         "leapMonth": false
       },
-      "effective": { "fromYear": 1 },
-      "sourceIds": ["kr-baekjung"],
+      "effective": {
+        "fromYear": 1
+      },
+      "sourceIds": [
+        "kr-baekjung"
+      ],
       "observanceType": "religious_traditional",
-      "religiousTraditions": ["buddhist"],
-      "applicability": { "mode": "countries", "countries": ["KR"] }
+      "religiousTraditions": [
+        "buddhist"
+      ],
+      "applicability": {
+        "mode": "countries",
+        "countries": [
+          "KR"
+        ]
+      }
     },
     {
       "id": "international.zhongyuan-festival",
-      "title": "Tết Trung Nguyên",
+      "title": "中元節",
       "icon": "🏮",
-      "categoryId": "le-khac",
       "rule": {
         "kind": "lunar_fixed",
         "month": 7,
         "day": 15,
         "leapMonth": false
       },
-      "effective": { "fromYear": 1 },
-      "sourceIds": ["east-asian-buddhist"],
+      "effective": {
+        "fromYear": 1
+      },
+      "sourceIds": [
+        "east-asian-buddhist"
+      ],
       "observanceType": "religious_traditional",
-      "religiousTraditions": ["buddhist"],
-      "applicability": { "mode": "countries", "countries": ["TW"] }
+      "religiousTraditions": [
+        "buddhist"
+      ],
+      "applicability": {
+        "mode": "countries",
+        "countries": [
+          "TW"
+        ]
+      }
     },
     {
       "id": "international.our-lady-of-la-vang",
       "title": "Lễ Đức Mẹ La Vang",
       "icon": "🕊️",
-      "categoryId": "le-khac",
-      "rule": { "kind": "solar_fixed", "month": 8, "day": 15 },
-      "effective": { "fromYear": 1798 },
-      "sourceIds": ["vn-la-vang"],
+      "rule": {
+        "kind": "solar_fixed",
+        "month": 8,
+        "day": 15
+      },
+      "effective": {
+        "fromYear": 1798
+      },
+      "sourceIds": [
+        "vn-la-vang"
+      ],
       "observanceType": "religious_observance",
-      "religiousTraditions": ["catholic"],
-      "applicability": { "mode": "countries", "countries": ["VN"] }
+      "religiousTraditions": [
+        "catholic"
+      ],
+      "applicability": {
+        "mode": "countries",
+        "countries": [
+          "VN"
+        ]
+      }
     },
     {
       "id": "international-day-of-older-persons",
-      "title": "Ngày Quốc tế Người cao tuổi",
+      "title": "International Day of Older Persons",
       "icon": "🧓",
-      "categoryId": "le-khac",
-      "rule": { "kind": "solar_fixed", "month": 10, "day": 1 },
-      "effective": { "fromYear": 1991 },
-      "sourceIds": ["un-international-days"],
+      "rule": {
+        "kind": "solar_fixed",
+        "month": 10,
+        "day": 1
+      },
+      "effective": {
+        "fromYear": 1991
+      },
+      "sourceIds": [
+        "un-international-days"
+      ],
       "observanceType": "international_observance",
-      "applicability": { "mode": "all" }
+      "applicability": {
+        "mode": "all"
+      }
     },
     {
       "id": "international.halloween",
       "title": "Halloween",
       "icon": "🎃",
-      "categoryId": "le-khac",
-      "rule": { "kind": "solar_fixed", "month": 10, "day": 31 },
-      "effective": { "fromYear": 1 },
-      "sourceIds": ["cultural-observances"],
+      "rule": {
+        "kind": "solar_fixed",
+        "month": 10,
+        "day": 31
+      },
+      "effective": {
+        "fromYear": 1
+      },
+      "sourceIds": [
+        "cultural-observances"
+      ],
       "observanceType": "social_cultural_observance",
-      "applicability": { "mode": "all" }
+      "applicability": {
+        "mode": "all"
+      }
     },
     {
       "id": "international-day-of-persons-with-disabilities",
-      "title": "Ngày Quốc tế Người khuyết tật",
+      "title": "International Day of Persons with Disabilities",
       "icon": "♿",
-      "categoryId": "le-khac",
-      "rule": { "kind": "solar_fixed", "month": 12, "day": 3 },
-      "effective": { "fromYear": 1992 },
-      "sourceIds": ["un-international-days"],
+      "rule": {
+        "kind": "solar_fixed",
+        "month": 12,
+        "day": 3
+      },
+      "effective": {
+        "fromYear": 1992
+      },
+      "sourceIds": [
+        "un-international-days"
+      ],
       "observanceType": "international_observance",
-      "applicability": { "mode": "all" }
+      "applicability": {
+        "mode": "all"
+      }
     },
     {
       "id": "international.christmas-day",
-      "title": "Lễ Giáng Sinh",
+      "title": "Christmas Day",
       "icon": "🎄",
-      "categoryId": "le-khac",
-      "rule": { "kind": "solar_fixed", "month": 12, "day": 25 },
-      "effective": { "fromYear": 1 },
-      "sourceIds": ["cultural-observances"],
+      "rule": {
+        "kind": "solar_fixed",
+        "month": 12,
+        "day": 25
+      },
+      "effective": {
+        "fromYear": 1
+      },
+      "sourceIds": [
+        "cultural-observances"
+      ],
       "observanceType": "religious_observance",
-      "religiousTraditions": ["catholic", "christian"],
+      "religiousTraditions": [
+        "catholic",
+        "christian"
+      ],
       "applicability": {
         "mode": "countries",
-        "countries": ["VN", "TW", "JP", "KR", "US", "AU"]
+        "countries": [
+          "VN",
+          "TW",
+          "JP",
+          "KR",
+          "US",
+          "AU"
+        ]
       }
     }
   ]
