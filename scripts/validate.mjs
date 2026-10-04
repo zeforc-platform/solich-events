@@ -15,10 +15,7 @@ for (const file of fs.readdirSync(schemaDir)) {
     const filePath = path.join(schemaDir, file);
     const content = JSON.parse(fs.readFileSync(filePath, 'utf8'));
     schemas[file] = content;
-    ajv.addSchema(content, file);
-    if (content.$id) {
-      ajv.addSchema(content, content.$id);
-    }
+    ajv.addSchema(content);
   }
 }
 
