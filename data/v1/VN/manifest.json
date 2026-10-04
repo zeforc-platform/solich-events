@@ -94,6 +94,11 @@
         "year": 2026,
         "path": "official/overrides/2026.json",
         "status": "published"
+      },
+      {
+        "year": 2027,
+        "path": "official/overrides/2027.json",
+        "status": "published"
       }
     ]
   }

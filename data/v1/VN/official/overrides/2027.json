@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "documentType": "official_calendar_overrides",
+  "jurisdiction": {
+    "country": "VN",
+    "subdivision": null
+  },
+  "year": 2027,
+  "scheduleScope": "public_sector_schedule",
+  "status": "published",
+  "updatedAt": "2026-10-04T00:00:00Z",
+  "sources": [
+    {
+      "id": "vn-holiday-schedule-2027",
+      "title": "Thông báo về lịch nghỉ Tết Âm lịch và các ngày lễ trong năm 2027",
+      "authority": "Bộ Lao động - Thương binh và Xã hội / Văn phòng Chính phủ",
+      "url": "https://baochinhphu.vn",
+      "publishedAt": "2026-10-01"
+    }
+  ],
+  "entries": [
+    {
+      "id": "vn.2027.lunar-new-year.leave-before-2",
+      "date": "2027-02-04",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-holiday-schedule-2027"]
+    },
+    {
+      "id": "vn.2027.lunar-new-year.leave-before-1",
+      "date": "2027-02-05",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-holiday-schedule-2027"]
+    },
+    {
+      "id": "vn.2027.lunar-new-year.leave-after-1",
+      "date": "2027-02-07",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-holiday-schedule-2027"]
+    },
+    {
+      "id": "vn.2027.lunar-new-year.leave-after-2",
+      "date": "2027-02-08",
+      "type": "official_leave",
+      "title": "Nghỉ Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-holiday-schedule-2027"]
+    },
+    {
+      "id": "vn.2027.lunar-new-year.compensatory-leave-1",
+      "date": "2027-02-09",
+      "type": "compensatory_leave",
+      "title": "Nghỉ bù Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-holiday-schedule-2027"]
+    },
+    {
+      "id": "vn.2027.lunar-new-year.compensatory-leave-2",
+      "date": "2027-02-10",
+      "type": "compensatory_leave",
+      "title": "Nghỉ bù Tết Nguyên Đán",
+      "holidayId": "vn.lunar-new-year",
+      "sourceIds": ["vn-holiday-schedule-2027"]
+    },
+    {
+      "id": "vn.2027.international-workers-day.compensatory-leave",
+      "date": "2027-05-03",
+      "type": "compensatory_leave",
+      "title": "Nghỉ bù Ngày Quốc tế Lao động",
+      "holidayId": "vn.international-workers-day",
+      "sourceIds": ["vn-holiday-schedule-2027"]
+    },
+    {
+      "id": "vn.2027.national-day.additional-statutory-leave",
+      "date": "2027-09-03",
+      "type": "official_leave",
+      "title": "Nghỉ lễ Quốc khánh",
+      "holidayId": "vn.national-day",
+      "sourceIds": ["vn-holiday-schedule-2027"]
+    }
+  ]
+}

@@ -8,7 +8,7 @@
   "year": 2027,
   "scheduleScope": "nationwide_statutory",
   "status": "published",
-  "updatedAt": "2026-08-13T00:00:00Z",
+  "updatedAt": "2026-10-04T00:00:00Z",
   "sources": [
     {
       "id": "us-opm-2027",
@@ -52,6 +52,14 @@
       "sourceIds": ["us-opm-2027"]
     },
     {
+      "id": "us.2027.juneteenth.observed",
+      "date": "2027-06-18",
+      "type": "compensatory_leave",
+      "title": "Juneteenth National Independence Day (Observed)",
+      "holidayId": "us.juneteenth",
+      "sourceIds": ["us-opm-2027"]
+    },
+    {
       "id": "us.2027.juneteenth",
       "date": "2027-06-19",
       "type": "official_holiday",
@@ -64,6 +72,14 @@
       "date": "2027-07-04",
       "type": "official_holiday",
       "title": "Independence Day",
+      "holidayId": "us.independence-day",
+      "sourceIds": ["us-opm-2027"]
+    },
+    {
+      "id": "us.2027.independence-day.observed",
+      "date": "2027-07-05",
+      "type": "compensatory_leave",
+      "title": "Independence Day (Observed)",
       "holidayId": "us.independence-day",
       "sourceIds": ["us-opm-2027"]
     },
@@ -89,6 +105,22 @@
       "type": "official_holiday",
       "title": "Veterans Day",
       "holidayId": "us.veterans-day",
+      "sourceIds": ["us-opm-2027"]
+    },
+    {
+      "id": "us.2027.thanksgiving-day",
+      "date": "2027-11-25",
+      "type": "official_holiday",
+      "title": "Thanksgiving Day",
+      "holidayId": "us.thanksgiving-day",
+      "sourceIds": ["us-opm-2027"]
+    },
+    {
+      "id": "us.2027.christmas-day.observed",
+      "date": "2027-12-24",
+      "type": "compensatory_leave",
+      "title": "Christmas Day (Observed)",
+      "holidayId": "us.christmas-day",
       "sourceIds": ["us-opm-2027"]
     },
     {
